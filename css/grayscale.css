@@ -7,9 +7,9 @@
 body {
     width: 100%;
     height: 100%;
-    font-family: 'Raleway', sans-serif;
+    font-family: Lato, sans-serif;
     color: #fff;
-    background-color: #000;
+    background-color: #fff;
 }
 
 html {
@@ -25,15 +25,9 @@ h5,
 h6 {
     margin: 0 0 35px;
     text-transform: uppercase;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 700;
+    font-family: Lato, sans-serif;
     letter-spacing: 1px;
 }
-
-h2 {
-    text-shadow: 2px 2px #000000;
-}
-
 p {
     margin: 0 0 25px;
     font-size: 18px;
@@ -79,6 +73,7 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
+    text-shadow: 2px 2px #000000;
 }
 
 .navbar-custom .navbar-brand {
@@ -92,7 +87,7 @@ a:focus {
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
-    color: #fff;
+    color: #00171F;
 }
 
 .navbar-custom .navbar-brand .navbar-toggle:focus,
@@ -140,7 +135,7 @@ a:focus {
 }
 
 .navbar-custom .nav li.active a:hover {
-    color: #fff;
+    color: #00171F;
 }
 
 @media(min-width:768px) {
@@ -157,7 +152,7 @@ a:focus {
     .navbar-custom.top-nav-collapse {
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
+        background: #00171F;
     }
 }
 
@@ -182,7 +177,6 @@ a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    text-shadow: 5px 2px #000000;
     font-size: 40px;
 }
 
@@ -199,7 +193,7 @@ a:focus {
     transition: all .3s ease-in-out;
 }
 
-.white-bg:hover {
+.white-bg {
     background-color: rgba(255,255,255,.8);
     color: #0091D6;
     .intro {
@@ -207,7 +201,7 @@ a:focus {
     }
 }
 
-.white-bg:hover .brand-heading {
+.white-bg .brand-heading {
     text-shadow: 5px 2px #FFBA02;
 }
 
@@ -241,11 +235,26 @@ a:focus {
     transition: background .3s ease-in-out;
 }
 
+.blue-circle {
+    border: 2px solid #0091D6;
+}
+.blue-circle:hover {
+    outline:0;
+    border: 2px solid #0091D6;
+    background: rgba(0,145,214,.8);
+}
+
 .btn-circle:hover,
 .btn-circle:focus {
     outline: 0;
     color: #0091D6;
     background: rgba(255,255,255,.8);
+}
+.btn-circle.blue-circle:hover,
+.btn-circle.blue-circle:focus {
+    outline: 0;
+    border: 0px;
+    background: rgba(0,145,214,.8);
 }
 
 .yellow {
@@ -309,21 +318,112 @@ a:focus {
     }
 }
 
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInDown {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(20px);
+    -ms-transform: translateY(20px);
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
 .content-section {
     padding-top: 0px;
+}
+
+.container h2 {
+    font-size: 48px;
+    line-height: 64px;
+    font-weight: 300;
 }
 
 .about {
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    color: #0091D6;    
+    background-color: #fff;
     background-size: cover;
     -o-background-size: cover;
     width: 100%;
     padding-top: 125px;
     padding-bottom: 125px;
 }
+
+.about p {
+    color: #999;
+}
+
 .schedule {
+    color: #fff;    
+    background-color: #0091D6;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -333,7 +433,9 @@ a:focus {
     padding-top: 125px;
     padding-bottom: 125px;
 }
-.programs {
+.board {
+    color: #0091D6;    
+    background-color: #fff;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -390,17 +492,15 @@ a:focus {
 }
 
 .about.start {
-    background-color: #0091D6;
-    transition: all .3s ease-in-out;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    padding-top: 125px;
-    padding-bottom: 125px;
-    
+    .scrollimation.scale-in.in {
+    opacity:1;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    transform:scale(1);
 }
+    
+}/*
 .programs.start {
     background-color: #0091D6;
     transition: all .3s ease-in-out;
@@ -476,8 +576,8 @@ a:focus {
     padding-top: 125px;
     padding-bottom: 125px;
     
-}
-*/
+}*/
+
 .left-align {
     text-align:left;
 }
