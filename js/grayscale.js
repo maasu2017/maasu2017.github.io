@@ -4,6 +4,11 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+//Page Preloader
+$(window).load(function(){
+    $('#page-loader').fadeOut(500);
+});
+
 // jQuery to collapse the navbar on scroll
 function collapseNavbar() {
     if ($(".navbar").offset().top > 50) {
@@ -39,7 +44,7 @@ $('.intro').backstretch([
       "img/intro-bg.jpg",
       "img/intro-bg2.jpg",
       "img/intro-bg3.jpg"
-  ], {duration: 3000, fade: 750});
+  ], {duration: 5000, fade: 1000});
 
 // Google Maps Scripts
 var map = null;

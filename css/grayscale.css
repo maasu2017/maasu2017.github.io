@@ -51,6 +51,27 @@ p {
     }
 }
 
+#page-loader{
+    position: fixed;
+    right:0;
+    bottom: 0;
+    top: 0;
+    width:100%;
+    background: #fff;
+    z-index: 99999;
+}
+
+#page-loader .page-loader-gif{
+    display: block;
+    width:64px;
+    height:64px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin:-32px 0 0 -32px;
+    background: url('../assets/preloader.gif') no-repeat;
+}
+
 a {
     color: #42dca3;
     -webkit-transition: all .2s ease-in-out;
@@ -173,6 +194,10 @@ a:focus {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+footer {
+    color: #0091D6;
 }
 
 .intro .intro-body {
@@ -606,7 +631,7 @@ a:focus {
     width: 100%;
     padding-top: 50px;
     color: #fff;
-    background: url(../img/contact-bg-bw.jpg) no-repeat center center scroll;
+    background: url(../img/contact-bg.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
