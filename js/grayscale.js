@@ -46,6 +46,26 @@ $('.intro').backstretch([
       "img/intro-bg3.jpg"
   ], {duration: 5000, fade: 1000});
 
+$('body').append('<img class="preload-image" src="img/contact-bg.jpg" style="display:none;"/>');
+
+$('#about').waypoint(function(direction){
+
+    if($('.preload-image').length){$('.preload-image').remove();}
+    
+    $('.backstretch').remove();
+
+    if (direction=='down'){
+        $.backstretch('img/contact-bg.jpg');
+    }else{
+        // $.backstretch('assets/header-bg.jpg');
+        $('.intro').backstretch([
+              "img/intro-bg.jpg",
+              "img/intro-bg2.jpg",
+              "img/intro-bg3.jpg"
+          ], {duration: 5000, fade: 1000});
+    }
+});
+
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below

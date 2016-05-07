@@ -184,7 +184,7 @@
                 Soy sauce duck wings octopus seaweed sauteed string beans beef shank pork spiced salt baked octopus Fung zao Ngao yuk kau Pai gwut Ma lai go Do fu fa
             <br/><br/>
                 Soy sauce duck wings octopus seaweed sauteed string beans beef shank pork spiced salt baked octopus Fung zao Ngao yuk kau Pai gwut Ma lai go Do fu fa</p>
-                <a href="#sponsors" class="btn btn-circle yellow page-scroll">
+                <a href="#sponsors" class="btn btn-circle blue-circle yellow page-scroll">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>
@@ -221,7 +221,7 @@
                 Soy sauce duck wings octopus seaweed sauteed string beans beef shank pork spiced salt baked octopus Fung zao Ngao yuk kau Pai gwut Ma lai go Do fu fa
             <br/><br/>
                 Soy sauce duck wings octopus seaweed sauteed string beans beef shank pork spiced salt baked octopus Fung zao Ngao yuk kau Pai gwut Ma lai go Do fu fa</p>
-                <a href="#resources" class="btn btn-circle yellow page-scroll">
+                <a href="#resources" class="btn btn-circle blue-circle yellow page-scroll">
                     <i class="fa fa-angle-double-down animated"></i>
                 </a>
             </div>
@@ -250,32 +250,58 @@
         </div>
     </section>
     <!-- Contact Section -->
-    <section id="contact" class="content-section text-center">
-        <div class="contact-section">
-            <div class="container vertical-center">
-                <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Keep in TOUCH with us!</h2>
-                    <p>Feel free to email us with any questions or concerns</p>
-                    <p><a href="mailto:maasu@umich.edu">maasu@umich.edu</a>
-                    </p>
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a target="_blank" href="http://www.google.com" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="http://www.google.com" class="btn btn-default btn-lg"><i class="fa fa-instagram fa-fw"></i> <span class="network-name">Instagram</span></a>
-                        </li>
-                        <li>
-                            <a target="_blank" href="http://www.google.com" class="btn btn-default btn-lg"><i class="fa fa-google-plus fa-fw"></i> <span class="network-name">Google+</span></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
+    <section id="contact">
+        <div class="container">
+            <h1 class="section-title scrollimation scale-in">Keep in <span>Touch</span> with me</h1>
+            <div class="row">
+                <div class="col-sm-5 contact-info scrollimation fade-right">
 
-    <!-- Map Section -->
-    <div id="map"></div>
+                    <p>Feel free to use this form to contact us, or contact us directly using our email or social media channels below!</p>
+
+                    <ul class="socials">
+                        <li><a target="_blank" href="https://www.google.com"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="https://www.google.com"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+
+                </div>
+
+                <form id="contact-form" class="col-sm-7 scrollimation fade-left" action="https://formspree.io/kelvin.tam@live.com" method="post" data-toggle="validator" data-display="false" novalidate>
+
+                    <div class="form-group">
+                      <label class="control-label" for="contact-name">Name</label>
+                      <div class="controls">
+                        <i class="fa fa-user"></i>
+                        <input id="contact-name" name="contactName" placeholder="My name is..." class="form-control input-lg requiredField" type="text" data-error-empty="Please enter your name" required>
+                      </div>
+                    </div><!-- End name input -->
+
+                    <div class="form-group">
+                      <label class="control-label" for="contact-mail">Email</label>
+                      <div class=" controls">
+                        <i class="fa fa-envelope"></i>
+                        <input id="contact-mail" name="contact" placeholder="Please respond at..." class="form-control input-lg requiredField" type="email" data-error-empty="Please enter your email" data-error-invalid="Invalid email address" required>
+                      </div>
+                    </div><!-- End email input -->
+
+                    <input type="hidden" name="_next" value="//projectprogramamark.github.io/" />
+
+                    <div class="form-group">
+                      <label class="control-label" for="contact-message">Message</label>
+                        <div class="controls">
+                            <i class="fa fa-comment"></i>
+                            <textarea id="contact-message" name="comments"  placeholder="Message..." class="form-control input-lg requiredField" rows="5" data-error-empty="Please enter your message" required></textarea>
+                        </div>
+                    </div><!-- End textarea -->
+                    <button name="submit" type="submit" class="btn btn-theme btn-lg" value="Send" onclick="sendSuccess()" data-error-message="Error!" data-sending-message="Sending..." data-ok-message="Message Sent"><i class="fa fa-paper-plane"></i>Send Message</button>
+                </form><!-- End contact-form -->
+                <div id="response"></div>
+
+            </div><!-- End row -->
+
+        </div><!-- End container -->
+
+    </section><!-- End contact section -->
 
     <!-- Footer -->
     <footer>
@@ -296,6 +322,8 @@
     <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDetkpVEKO1mWqLOHewaPCTyvLFYMvP-kg&sensor=false"></script>
     <script src="js/jquery.backstretch.min.js"></script>
+    <script src="js/waypoint.min.js"></script>
+    <script src="js/validator.min.js"></script>
     <script src="js/grayscale.js"></script>
     
 
