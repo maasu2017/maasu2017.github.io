@@ -35,6 +35,12 @@ $('.navbar-collapse ul li a').click(function() {
   }
 });
 
+$('.intro').backstretch([
+      "img/intro-bg.jpg",
+      "img/intro-bg2.jpg",
+      "img/intro-bg3.jpg"
+  ], {duration: 3000, fade: 750});
+
 // Google Maps Scripts
 var map = null;
 // When the window has finished loading create our google map below
