@@ -69,7 +69,7 @@ p {
     top:50%;
     left:50%;
     margin:-32px 0 0 -32px;
-    background: url('../assets/preloader.gif') no-repeat;
+    background: url('../img/preloader.gif') no-repeat;
 }
 
 a {
