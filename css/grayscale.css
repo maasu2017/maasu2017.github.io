@@ -215,8 +215,6 @@ footer {
 }
 
 .intro .intro-body .white-bg {
-    border-style: solid;
-    border-color: #FFFFFF;
     padding-top: 20px;
     padding-bottom: 20px;
     transition: all .3s ease-in-out;
