@@ -477,7 +477,6 @@ footer {
 
 }
 
-
 .board {
     color: #0091D6;    
     background-color: #fff;
@@ -491,18 +490,14 @@ footer {
     padding-bottom: 125px;
     
 }
-.membership {
-    transition: all .3s ease-in-out;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-    width: 100%;
-    padding-top: 125px;
-    padding-bottom: 125px;
-    
+
+.board p {
+        color: #0091D6;
 }
+
 .sponsors {
+    color: #fff;    
+    background-color: #0091D6;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -511,9 +506,11 @@ footer {
     width: 100%;
     padding-top: 125px;
     padding-bottom: 125px;
-    
 }
+
 .alumni {
+    color: #0091D6;    
+    background-color: #fff;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -524,7 +521,10 @@ footer {
     padding-bottom: 125px;
     
 }
+
 .resources {
+    color: #fff;    
+    background-color: #0091D6;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -537,15 +537,13 @@ footer {
 }
 
 .about.start {
-    .scrollimation.scale-in.in {
     opacity:1;
     -webkit-transform: scale(1);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     transform:scale(1);
 }
-    
-}/*
+    /*
 .programs.start {
     background-color: #0091D6;
     transition: all .3s ease-in-out;
