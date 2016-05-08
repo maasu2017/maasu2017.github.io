@@ -532,6 +532,7 @@ footer {
 }
 
 .board img {
+
     box-shadow:12px 0px 0px 12px rgba(0,145,214,.2),
                 -12px 0px 0px 12px rgba(255,186,2,0.2);
 }
@@ -672,6 +673,13 @@ footer {
 }
 
 .img-center{
+    width: 300px;
+    height: auto;
+    position: relative;
+    float: left;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;  
+    background-size: cover;
     margin:20px auto;
 }
 
