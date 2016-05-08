@@ -99,10 +99,6 @@ a:focus {
 
 }
 
-.no-textshadow .navbar-custom .nav a:before {
-    content: 'â€¢ â€¢ â€¢';
-}
-
 .navbar-custom .navbar-brand {
     font-weight: 700;
 }
