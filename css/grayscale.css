@@ -59,6 +59,7 @@ p {
     width:100%;
     background: #fff;
     z-index: 99999;
+    color: #000;
 }
 
 #page-loader .page-loader-gif{
