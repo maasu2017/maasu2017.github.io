@@ -99,6 +99,9 @@ function checkAnimation($elem) {
     }
 }
 
+$('.scrollimation').waypoint(function(){
+        $(this).toggleClass('in');
+    },{offset:'90%'});
 
 // Capture scroll events
 $(window).scroll(function(){
