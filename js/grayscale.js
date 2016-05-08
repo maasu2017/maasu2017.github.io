@@ -66,14 +66,6 @@ $('#about').waypoint(function(direction){
     }
 });
 
-// Google Maps Scripts
-var map = null;
-// When the window has finished loading create our google map below
-google.maps.event.addDomListener(window, 'load', init);
-google.maps.event.addDomListener(window, 'resize', function() {
-    map.setCenter(new google.maps.LatLng(42.2780436, -83.7382241));
-});
-
 function isElementInViewport(elem) {
     var $elem = $(elem);
 
@@ -101,12 +93,12 @@ function checkAnimation($elem) {
     }
     if (isElementInViewport($elem)) {
         // Start the animation
-        $elem.addClass('start');
-        $elem.addClass('effects');
+        $elem.focus();
     } else {
-        $elem.removeClass('start');
+        $elem.blur()
     }
 }
+
 
 // Capture scroll events
 $(window).scroll(function(){

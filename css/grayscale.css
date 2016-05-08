@@ -13,8 +13,8 @@ body {
 }
 
 html {
-    width: 100%;
     height: 100%;
+    width: 100%;
 }
 
 h1,
@@ -96,6 +96,11 @@ a:focus {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     background-color: #000;
+
+}
+
+.no-textshadow .navbar-custom .nav a:before {
+    content: 'â€¢ â€¢ â€¢';
 }
 
 .navbar-custom .navbar-brand {
@@ -147,13 +152,19 @@ a:focus {
 .navbar-custom .nav li a:active {
     outline: 0;
     background-color: transparent;
+
 }
 
 .navbar-custom .nav li.active {
+    -webkit-transition: background .6s ease-in-out;
+    -moz-transition: background .6s ease-in-out;
+    transition: all .6s ease-in-out;
     outline: 0;
+    background-color: rgba(0,255,255,.3);
 }
 
 .navbar-custom .nav li.active a {
+
     background-color: rgba(255,255,255,.3);
 }
 
