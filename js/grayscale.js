@@ -112,11 +112,7 @@ function checkAnimation($elem) {
 $(window).scroll(function(){
     checkAnimation($('.about'));
     checkAnimation($('.schedule'));
-    checkAnimation($('.programs'));
-    checkAnimation($('.membership'));
     checkAnimation($('.sponsors'));
-    checkAnimation($('.alumni'));
-    checkAnimation($('.resources'));
 });
 
 function init() {
