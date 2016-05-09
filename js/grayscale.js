@@ -99,6 +99,87 @@ function checkAnimation($elem) {
     }
 }
 
+$(document).ready(function(){
+  $("#c1").on("hide.bs.collapse", function(){
+    $("#b1").html('<span class="fa fa-chevron-right"></span> Co-Chairs');
+  });
+  $("#c1").on("show.bs.collapse", function(){
+    $("#b1").html('<span class="fa fa-chevron-down"></span> Co-Chairs');
+  });
+});
+$(document).ready(function(){
+  $("#c2").on("hide.bs.collapse", function(){
+    $("#b2").html('<span class="fa fa-chevron-right"></span> Logistics');
+  });
+  $("#c2").on("show.bs.collapse", function(){
+    $("#b2").html('<span class="fa fa-chevron-down"></span> Logistics');
+  });
+});
+$(document).ready(function(){
+  $("#c3").on("hide.bs.collapse", function(){
+    $("#b3").html('<span class="fa fa-chevron-right"></span> Finance');
+  });
+  $("#c3").on("show.bs.collapse", function(){
+    $("#b3").html('<span class="fa fa-chevron-down"></span> Finanace');
+  });
+});
+$(document).ready(function(){
+  $("#c4").on("hide.bs.collapse", function(){
+    $("#b4").html('<span class="fa fa-chevron-right"></span> Workshops');
+  });
+  $("#c4").on("show.bs.collapse", function(){
+    $("#b4").html('<span class="fa fa-chevron-down"></span> Workshops');
+  });
+});
+$(document).ready(function(){
+  $("#c5").on("hide.bs.collapse", function(){
+    $("#b5").html('<span class="fa fa-chevron-right"></span> Publicity');
+  });
+  $("#c5").on("show.bs.collapse", function(){
+    $("#b5").html('<span class="fa fa-chevron-down"></span> Publicity');
+  });
+});
+$(document).ready(function(){
+  $("#c6").on("hide.bs.collapse", function(){
+    $("#b6").html('<span class="fa fa-chevron-right"></span> Multimedia');
+  });
+  $("#c6").on("show.bs.collapse", function(){
+    $("#b6").html('<span class="fa fa-chevron-down"></span> Multimedia');
+  });
+});
+$(document).ready(function(){
+  $("#c7").on("hide.bs.collapse", function(){
+    $("#b7").html('<span class="fa fa-chevron-right"></span> Community Liaison');
+  });
+  $("#c7").on("show.bs.collapse", function(){
+    $("#b7").html('<span class="fa fa-chevron-down"></span> Community Liaison');
+  });
+});
+$(document).ready(function(){
+  $("#c8").on("hide.bs.collapse", function(){
+    $("#b8").html('<span class="fa fa-chevron-right"></span> Entertainment');
+  });
+  $("#c8").on("show.bs.collapse", function(){
+    $("#b8").html('<span class="fa fa-chevron-down"></span> Entertainment');
+  });
+});
+$(document).ready(function(){
+  $("#c9").on("hide.bs.collapse", function(){
+    $("#b9").html('<span class="fa fa-chevron-right"></span> Registration');
+  });
+  $("#c9").on("show.bs.collapse", function(){
+    $("#b9").html('<span class="fa fa-chevron-down"></span> Registration');
+  });
+});
+$(document).ready(function(){
+  $("#c10").on("hide.bs.collapse", function(){
+    $("#b10").html('<span class="fa fa-chevron-right"></span> Volunteer Coordinator');
+  });
+  $("#c10").on("show.bs.collapse", function(){
+    $("#b10").html('<span class="fa fa-chevron-down"></span> Volunteer Coordinator');
+  });
+});
+
 $('.scrollimation').waypoint(function(){
         $(this).toggleClass('in');
     },{offset:'90%'});
