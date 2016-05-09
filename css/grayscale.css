@@ -710,16 +710,6 @@ footer {
     margin-bottom:84px;
 }
 
-#contact .section-title [class*=fa]{
-    color:#8aaad9;
-    -webkit-transform: rotate(-15deg);
-    -moz-transform: rotate(-15deg);
-    -ms-transform: rotate(-15deg);
-    transform:rotate(-15deg);
-    opacity:0.6;
-    filter:alpha(opacity=60);
-}
-
 
 #contact .contact-info p,
 #contact .contact-info address{
@@ -728,7 +718,12 @@ footer {
     line-height:30px;
     font-weight:400;
 }
-
+.board-content button {
+    width: 100%;
+    display: block;
+    text-align: left;
+    opacity: 50%
+}
 
 #contact .socials{
     margin:0;
