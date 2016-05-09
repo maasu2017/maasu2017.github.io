@@ -674,7 +674,7 @@ footer {
 
 .img-center{
     width: 300px;
-    height: auto;
+    height: 300px;
     position: relative;
     float: left;
     background-position: 50% 50%;
