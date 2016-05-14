@@ -108,6 +108,14 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
+  $("#c12").on("hide.bs.collapse", function(){
+    $("#b1").html('<span class="fa fa-chevron-right"></span> Co-Chairs');
+  });
+  $("#c12").on("show.bs.collapse", function(){
+    $("#b1").html('<span class="fa fa-chevron-down"></span> Co-Chairs');
+  });
+});
+$(document).ready(function(){
   $("#c2").on("hide.bs.collapse", function(){
     $("#b2").html('<span class="fa fa-chevron-right"></span> Logistics');
   });
