@@ -197,6 +197,7 @@ $(window).scroll(function(){
     checkAnimation($('.about'));
     checkAnimation($('.schedule'));
     checkAnimation($('.sponsors'));
+    collapseSliders($('.board'));
 });
 
 function init() {
