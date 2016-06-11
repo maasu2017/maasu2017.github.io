@@ -48,7 +48,7 @@ $('.intro').backstretch([
 
 $('body').append('<img class="preload-image" src="img/contact-bg.jpg" style="display:none;"/>');
 
-$('#about').waypoint(function(direction){
+$('#sponsors').waypoint(function(direction){
 
     if($('.preload-image').length){$('.preload-image').remove();}
     
@@ -99,19 +99,22 @@ function checkAnimation($elem) {
     }
 }
 
+function collapseSliders($elem) {
+
+    if (!isElementInViewport($elem)) {
+        if ($("$c1").hasClass("hide")) {
+            return;
+        } else {
+            $("#c1").addClass("hide collapse");
+        }
+    }
+}
+
 $(document).ready(function(){
   $("#c1").on("hide.bs.collapse", function(){
     $("#b1").html('<span class="fa fa-chevron-right"></span> Co-Chairs');
   });
   $("#c1").on("show.bs.collapse", function(){
-    $("#b1").html('<span class="fa fa-chevron-down"></span> Co-Chairs');
-  });
-});
-$(document).ready(function(){
-  $("#c12").on("hide.bs.collapse", function(){
-    $("#b1").html('<span class="fa fa-chevron-right"></span> Co-Chairs');
-  });
-  $("#c12").on("show.bs.collapse", function(){
     $("#b1").html('<span class="fa fa-chevron-down"></span> Co-Chairs');
   });
 });
