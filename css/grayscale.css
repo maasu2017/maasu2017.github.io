@@ -217,8 +217,15 @@ footer {
 }
 
 .intro .intro-body .intro-text {
-    font-family: 'Raleway', sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+
+.intro .intro-body .intro-header {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
     font-size: 40px;
+
 }
 
 .intro .intro-body .white-bg {
@@ -235,8 +242,12 @@ footer {
     }
 }
 
+.blue-bg {
+    background-color: rgba(0,145,214,.5);
+}
+
 .white-bg .brand-heading {
-    text-shadow: 5px 2px #FFBA02;
+    text-shadow: 5px 2px white;
 }
 
 @media(min-width:768px) {
@@ -316,6 +327,10 @@ footer {
     -moz-animation-iteration-count: infinite;
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
+}
+
+.section-header {
+    line-height: 20px!important;
 }
 
 @-webkit-keyframes pulse {    
