@@ -99,17 +99,6 @@ function checkAnimation($elem) {
     }
 }
 
-function collapseSliders($elem) {
-
-    if (!isElementInViewport($elem)) {
-        if ($("$c1").hasClass("hide")) {
-            return;
-        } else {
-            $("#c1").addClass("hide collapse");
-        }
-    }
-}
-
 $(document).ready(function(){
   $("#c1").on("hide.bs.collapse", function(){
     $("#b1").html('<span class="fa fa-chevron-right"></span> Co-Chairs');
@@ -190,6 +179,23 @@ $(document).ready(function(){
     $("#b10").html('<span class="fa fa-chevron-down"></span> Volunteer Coordinator');
   });
 });
+$(document).ready(function(){
+  $("#c10").on("hide.bs.collapse", function(){
+    $("#b10").html('<span class="fa fa-chevron-right"></span> Volunteer Coordinator');
+  });
+  $("#c10").on("show.bs.collapse", function(){
+    $("#b10").html('<span class="fa fa-chevron-down"></span> Volunteer Coordinator');
+  });
+});
+$(document).ready(function(){
+  $("#e1").click(function() {
+    $(".event-info").fadeOut(function() {
+        $(this).html("<p> Lorem dim sum Pot sticker water chestnut cake bitter melon beef dumplings turnip cake leek dumplings deep fried taro turnover " +
+            "Cha siu sou Cheong fan pan fried bitter melon beef dumpling mango pudding.</p>"
+        ).fadeIn();
+    }).fadeIn();
+  });
+});
 
 $('.scrollimation').waypoint(function(){
         $(this).toggleClass('in');
@@ -202,147 +208,3 @@ $(window).scroll(function(){
     checkAnimation($('.sponsors'));
     collapseSliders($('.board'));
 });
-
-function init() {
-    // Basic options for a simple Google Map
-    // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
-    var mapOptions = {
-        // How zoomed in you want the map to start at (always required)
-        zoom: 15,
-
-        // The latitude and longitude to center the map (always required)
-        center: new google.maps.LatLng(42.2780436, -83.7382241), // New York
-
-        // Disables the default Google Maps UI components
-        disableDefaultUI: true,
-        scrollwheel: false,
-        draggable: false,
-
-        // How you would like to style the map. 
-        // This is where you would paste any style found on Snazzy Maps.
-        styles: [{
-            "featureType": "water",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }]
-        }, {
-            "featureType": "landscape",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 20
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }]
-        }, {
-            "featureType": "road.highway",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 29
-            }, {
-                "weight": 0.2
-            }]
-        }, {
-            "featureType": "road.arterial",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 18
-            }]
-        }, {
-            "featureType": "road.local",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "featureType": "poi",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 21
-            }]
-        }, {
-            "elementType": "labels.text.stroke",
-            "stylers": [{
-                "visibility": "on"
-            }, {
-                "color": "#000000"
-            }, {
-                "lightness": 16
-            }]
-        }, {
-            "elementType": "labels.text.fill",
-            "stylers": [{
-                "saturation": 36
-            }, {
-                "color": "#000000"
-            }, {
-                "lightness": 40
-            }]
-        }, {
-            "elementType": "labels.icon",
-            "stylers": [{
-                "visibility": "off"
-            }]
-        }, {
-            "featureType": "transit",
-            "elementType": "geometry",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 19
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.fill",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 20
-            }]
-        }, {
-            "featureType": "administrative",
-            "elementType": "geometry.stroke",
-            "stylers": [{
-                "color": "#000000"
-            }, {
-                "lightness": 17
-            }, {
-                "weight": 1.2
-            }]
-        }]
-    };
-
-    // Get the HTML DOM element that will contain your map 
-    // We are using a div with id="map" seen below in the <body>
-    var mapElement = document.getElementById('map');
-
-    // Create the Google Map using out element and options defined above
-    map = new google.maps.Map(mapElement, mapOptions);
-
-    // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-    var image = 'img/map-marker.png';
-    var myLatLng = new google.maps.LatLng(42.2780436, -83.7382241);
-    var beachMarker = new google.maps.Marker({
-        position: myLatLng,
-        map: map,
-        icon: image
-    });
-}
