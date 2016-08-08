@@ -208,10 +208,15 @@ a:focus {
 .text-left {
     text-align: left;
 }
-
+.
 .schedule-row {
-    margin-left: 10%;
-    margin-right: 10%;
+  margin: 0px;
+}
+@media(min-width: 768px){
+  .schedule-row {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
 }
 
 .event-info {
@@ -304,13 +309,13 @@ footer {
     .intro {
         background-color: black;
     }
-    -moz-border-radius: 6px; 
-    border-radius: 6px; /* standards-compliant: (IE) */ 
+    -moz-border-radius: 6px;
+    border-radius: 6px; /* standards-compliant: (IE) */
 }
 
 .rounded-edges {
-    -moz-border-radius: 6px; 
-    border-radius: 6px; /* standards-compliant: (IE) */ 
+    -moz-border-radius: 6px;
+    border-radius: 6px; /* standards-compliant: (IE) */
 }
 
 .blue-bg {
@@ -404,7 +409,7 @@ footer {
     line-height: 20px!important;
 }
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -421,7 +426,7 @@ footer {
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
@@ -538,7 +543,7 @@ footer {
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
     -moz-background-size: cover;
-    color: #0091D6;    
+    color: #0091D6;
     background-color: #fff;
     background-size: cover;
     -o-background-size: cover;
@@ -582,7 +587,7 @@ footer {
 }
 
 .schedule {
-    color: #fff;    
+    color: #fff;
     background-color: #0091D6;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
@@ -599,7 +604,7 @@ footer {
 }
 
 .board {
-    color: #0091D6;    
+    color: #0091D6;
     background-color: #fff;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
@@ -609,7 +614,7 @@ footer {
     width: 100%;
     padding-top: 125px;
     padding-bottom: 125px;
-    
+
 }
 
 .board p {
@@ -628,7 +633,7 @@ footer {
 }
 
 .sponsors {
-    color: #fff;    
+    color: #fff;
     background-color: #0091D6;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
@@ -641,7 +646,7 @@ footer {
 }
 
 .alumni {
-    color: #0091D6;    
+    color: #0091D6;
     background-color: #fff;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
@@ -651,11 +656,11 @@ footer {
     width: 100%;
     padding-top: 125px;
     padding-bottom: 125px;
-    
+
 }
 
 .resources {
-    color: #fff;    
+    color: #fff;
     background-color: #0091D6;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
@@ -665,7 +670,7 @@ footer {
     width: 100%;
     padding-top: 125px;
     padding-bottom: 125px;
-    
+
 }
 
 .about.start {
@@ -764,7 +769,7 @@ footer {
     position: relative;
     float: left;
     background-position: 50% 50%;
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat;
     background-size: cover;
     margin:20px auto;
 }
@@ -788,7 +793,7 @@ footer {
 #contact {
     background:transparent;
     color:#fff;
-    padding:80px 0; 
+    padding:80px 0;
 }
 
 #contact .section-title {
@@ -1011,7 +1016,7 @@ ul.banner-social-buttons {
 
 footer {
     padding: 50px 0;
-    color: #0091D6;    
+    color: #0091D6;
     background-color: #fff;
     transition: all .3s ease-in-out;
     -webkit-background-size: cover;
