@@ -209,6 +209,14 @@ a:focus {
     text-align: left;
 }
 
+.schedule-row {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+
 .event-info {
     margin-top: 56px;
     padding: 10px;
