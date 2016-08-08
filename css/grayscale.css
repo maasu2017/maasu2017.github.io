@@ -161,6 +161,10 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  color: #0091D6;
+}
+
 .navbar-custom .nav li.active a:hover {
     color: #00171F;
     text-shadow: 0px;
