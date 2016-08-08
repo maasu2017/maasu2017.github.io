@@ -51,7 +51,7 @@ $('body').append('<img class="preload-image" src="img/contact-bg.jpg" style="dis
 $('#sponsors').waypoint(function(direction){
 
     if($('.preload-image').length){$('.preload-image').remove();}
-    
+
     $('.backstretch').remove();
 
     if (direction=='down'){
@@ -187,15 +187,7 @@ $(document).ready(function(){
     $("#b10").html('<span class="fa fa-chevron-down"></span> Volunteer Coordinator');
   });
 });
-$(document).ready(function(){
-  $("#e1").click(function() {
-    $(".event-info").fadeOut(function() {
-        $(this).html("Lorem dim sum Pot sticker water chestnut cake bitter melon beef dumplings turnip cake leek dumplings deep fried taro turnover " +
-            "Cha siu sou Cheong fan pan fried bitter melon beef dumpling mango pudding."
-        ).fadeIn();
-    }).fadeIn();
-  });
-});
+// I took out the lorem dim sum from this file, it now lives in schedule.js -tiners
 
 $('.scrollimation').waypoint(function(){
         $(this).toggleClass('in');
