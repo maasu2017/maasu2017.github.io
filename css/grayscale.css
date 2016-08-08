@@ -203,6 +203,12 @@ a:focus {
     -o-background-size: cover;
 }
 
+.logo {
+    width: 200px;
+    height: auto;
+    opacity: .7;
+}
+
 footer {
     color: #0091D6;
 }
@@ -218,7 +224,7 @@ footer {
 
 .intro .intro-body .intro-text {
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size: 15px;
+    font-size: 24px;
 }
 
 .intro .intro-body .intro-header {
@@ -261,7 +267,7 @@ footer {
     }
 
     .intro .intro-body .intro-text {
-        font-size: 26px;
+        font-size: 24px;
     }
 }
 
