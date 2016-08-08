@@ -645,6 +645,10 @@ footer {
     padding-bottom: 125px;
 }
 
+.img-responsive {
+  margin: 0px auto;
+}
+
 .alumni {
     color: #0091D6;
     background-color: #fff;
