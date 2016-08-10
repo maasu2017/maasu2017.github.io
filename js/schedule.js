@@ -16,7 +16,7 @@ $(document).ready(function() {
 
         // FRIDAY: Registration
         case "e1":
-          blurb = "this is the first event";
+          blurb = "It's registration...that's self-explanatory, right? right???";
           break;
 
         // FRIDAY: GenAPA
