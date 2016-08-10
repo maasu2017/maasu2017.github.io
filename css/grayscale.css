@@ -54,7 +54,8 @@ p {
     right:0;
     bottom: 0;
     top: 0;
-    width:100%;
+    left: 0;
+    width:95%;
     background: #fff;
     z-index: 99999;
     color: #000;
@@ -233,6 +234,9 @@ a:focus {
 .panel, .panel-heading, .panel-body {
   border: none;
   border-radius: 0px;
+}
+
+#friday > .panel > .panel-collapse, #saturday > .panel > .panel-collapse  {
   background-color: #0091D6;
 }
 
