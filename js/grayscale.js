@@ -197,6 +197,4 @@ $('.scrollimation').waypoint(function(){
 $(window).scroll(function(){
     checkAnimation($('.about'));
     checkAnimation($('.schedule'));
-    checkAnimation($('.sponsors'));
-
 });
