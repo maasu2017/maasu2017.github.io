@@ -356,7 +356,11 @@ footer {
     background-color: rgba(0,145,214,.5);
 }
 
-.white-bg .brand-heading .intro-header {
+.white-bg .brand-heading {
+    text-shadow: 5px 2px white;
+}
+
+.intro-header {
     text-shadow: 5px 2px white;
 }
 
