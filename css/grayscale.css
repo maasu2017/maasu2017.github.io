@@ -208,15 +208,49 @@ a:focus {
 .text-left {
     text-align: left;
 }
-.
+
+
+
+
+/******************/
+/* Schedule stuff */
+/******************/
+
 .schedule-row {
   margin: 0px;
 }
+
+.xs-sched-title {
+  font-size: 16px;
+  color: #EEE;
+}
+
+/* lazy ass css styling */
+.xs-sched-title:hover, .xs-sched-title:focus {
+  color: #BBB;
+}
+
+.panel, .panel-heading, .panel-body {
+  border: none;
+  border-radius: 0px;
+  background-color: #0091D6;
+}
+
+.panel-default > .panel-heading {
+  height: 50px;
+  background-color: #0091D6;
+  border-bottom: 1px #fff solid;
+}
+
 @media(min-width: 768px){
   .schedule-row {
       margin-left: 10%;
       margin-right: 10%;
   }
+}
+
+.time {
+  font-size: 10px;
 }
 
 .event-info {

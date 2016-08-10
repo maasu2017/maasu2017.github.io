@@ -128,9 +128,8 @@
     <section id="schedule" class="container content-section schedule text-center">
         <div class="row schedule-row">
             <h2 class="section-title scrollimation scale-in">Your Itinerary for the day...<i class="fa fa-calendar-check-o"></i></h2>
-            <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12">
+            <div class="col-lg-6 col-lg-offset-1 col-md-6 col-md-offset-1 col-sm-12 hidden-xs">
                 <table class="table table-hover text-left">
-
                   <!-- Please note: if you choose to change the tr id's, make the appropriate ammendments to schedule.js -->
                 <thead>
                     <tr>
@@ -218,11 +217,322 @@
                 </tbody>
                 </table>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs">
                 <div class="white-bg event-info">
                     Click on an event to show more info!
                 </div>
             </div>
+            <!-- Mobile view! -->
+            <div class="col-xs-12 visible-xs-block">
+              <!-- If you wish to add more events, replace every instance of "Ex" within the panel div, where x is an integer, with a number not already taken-->
+              <!-- There are 5 per event panel (three CEx and two Ex) -->
+              <!--- Friday events --->
+              <h2>Friday</h2>
+              <div class="panel-group" id="friday" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="fridayE1">
+                    <h5>
+                      <a role="button" data-toggle="collapse" data-parent="#friday" href="#fridayCE1" aria-expanded="true" aria-controls="fridayCE1" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            8:00am - 10:00am
+                          </div>
+                          <div class="col-xs-8">
+                            Registration
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="fridayCE1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="fridayE1">
+                    <div class="panel-body">
+                      Registration event info
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="fridayE2">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#friday" href="#fridayCE2" aria-expanded="false" aria-controls="fridayCE2">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            7:00pm - 10:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            GenAPA
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="fridayCE2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="fridayE2">
+                    <div class="panel-body">
+                      GenAPA event info
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--- Saturday events --->
+              <h2>Not Friday</h2>
+              <div class="panel-group" id="saturday" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE1">
+                    <h5>
+                      <a role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE1" aria-expanded="true" aria-controls="saturdayCE1" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            8:00am - 10:00am
+                          </div>
+                          <div class="col-xs-8">
+                            Morning Registration
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE1">
+                    <div class="panel-body">
+                      Morning registration event info
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE2">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE2" aria-expanded="false" aria-controls="saturdayCE2">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            10:00am - 11:00am
+                          </div>
+                          <div class="col-xs-8">
+                            Small Pod I
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE2">
+                    <div class="panel-body">
+                      Small pod I event info
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE3">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE3" aria-expanded="false" aria-controls="saturdayCE3" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            11:30am - 12:30pm
+                          </div>
+                          <div class="col-xs-8">
+                            Workshop Session I
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE3">
+                    <div class="panel-body">
+                      Workshop session I event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE4">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE4" aria-expanded="false" aria-controls="saturdayCE4" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            12:30pm - 1:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Small Pod II
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE4">
+                    <div class="panel-body">
+                      Small Pod II event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE5">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE5" aria-expanded="false" aria-controls="saturdayCE5" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            1:00pm - 2:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Lunch
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE5">
+                    <div class="panel-body">
+                      Lunch event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE6">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE6" aria-expanded="false" aria-controls="saturdayCE6" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            2:00pm - 3:15pm
+                          </div>
+                          <div class="col-xs-8"  style="font-size: 75%">
+                            Workshop Session II (M-rep Meetings, Bid Proposal)
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE6">
+                    <div class="panel-body">
+                      Workshop session II event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE7">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE7" aria-expanded="false" aria-controls="saturdayCE7" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            3:30pm - 5:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Workshop Session III
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE7">
+                    <div class="panel-body">
+                      Workshop session III event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE8">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE8" aria-expanded="false" aria-controls="saturdayCE8" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            5:00pm - 5:15pm
+                          </div>
+                          <div class="col-xs-8">
+                            Small Pod III
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE8">
+                    <div class="panel-body">
+                      Small Pod III event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE9">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE9" aria-expanded="false" aria-controls="saturdayCE9" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            5:15pm - 7:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Break
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE9">
+                    <div class="panel-body">
+                      Break event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE10">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE10" aria-expanded="false" aria-controls="saturdayCE10" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            7:00pm - 10:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Banquet
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE10">
+                    <div class="panel-body">
+                      Banquet event info
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
         </div>
         <a href="#board" class="btn btn-circle yellow page-scroll">
             <i class="fa fa-angle-double-down animated"></i>
