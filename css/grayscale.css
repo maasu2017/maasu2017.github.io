@@ -4,17 +4,18 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+html {
+     height: 100%;
+     width: 100%;
+}
+
 body {
     width: 100%;
     height: 100%;
     font-family: Lato, sans-serif;
     color: #fff;
     background-color: #fff;
-}
-
-html {
-    height: 100%;
-    width: 100%;
+    webkit-tap-highlight-color: rgba(255,255,255,.2);
 }
 
 h1,
@@ -28,6 +29,7 @@ h6 {
     font-family: Lato, sans-serif;
     letter-spacing: 1px;
 }
+
 p {
     font-family: Lato, sans-serif;
     margin: 0 0 25px;
@@ -40,7 +42,6 @@ p {
         margin: 0 0 35px;
         font-size: 22px;
         line-height: 1.6;
-        font-family: Lato, sans-serif;
     }
 
     .about-font {
@@ -78,8 +79,7 @@ a {
     transition: all .2s ease-in-out;
 }
 
-a:hover,
-a:focus {
+a:hover, a:focus {
     text-decoration: none;
     color: #1d9b6c;
 }
@@ -209,15 +209,20 @@ a:focus {
     text-align: left;
 }
 
-
-
-
 /******************/
 /* Schedule stuff */
 /******************/
 
 .schedule-row {
   margin: 0px;
+}
+
+
+@media(min-width: 768px){
+  .schedule-row {
+      margin-left: 10%;
+      margin-right: 10%;
+  }
 }
 
 .xs-sched-title {
@@ -245,12 +250,6 @@ a:focus {
   border-bottom: 1px #fff solid;
 }
 
-@media(min-width: 768px){
-  .schedule-row {
-      margin-left: 10%;
-      margin-right: 10%;
-  }
-}
 
 .time {
   font-size: 10px;
@@ -309,10 +308,6 @@ a:focus {
     opacity: .7;
 }
 
-footer {
-    color: #0091D6;
-}
-
 .intro .intro-body {
     display: table-cell;
     vertical-align: middle;
@@ -350,6 +345,15 @@ footer {
     border-radius: 6px; /* standards-compliant: (IE) */
 }
 
+.gray-bg .brand-heading {
+    text-shadow: 5px 2px white;
+}
+
+
+.blue-bg {
+    background-color: rgba(0,145,214,.5);
+}
+
 .white-bg {
     background-color: rgba(255,255,255,.8);
     color: #0091D6;
@@ -364,15 +368,6 @@ footer {
     -moz-border-radius: 6px;
     border-radius: 6px; /* standards-compliant: (IE) */
 }
-
-.blue-bg {
-    background-color: rgba(0,145,214,.5);
-}
-
-.gray-bg .brand-heading {
-    text-shadow: 5px 2px white;
-}
-
 .intro-header {
     text-shadow: 2px 2px white;
 }
@@ -494,18 +489,6 @@ footer {
     }
 }
 
-  0% {
-    opacity: 0;
-    -webkit-transform: translateY(-20px);
-    transform: translateY(-20px);
-  }
-
-  100% {
-    opacity: 1;
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-  }
-}
 
 @keyframes fadeInDown {
   0% {
@@ -608,6 +591,12 @@ footer {
     animation-name: fadeInDown;
 }
 
+.about p {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+    color: #999;
+}
+
 .section-title [class*=fa]{
     position:absolute;
     top:-28px;
@@ -628,15 +617,6 @@ footer {
     padding-bottom: 50px;
 }
 
-.about p {
-    -webkit-animation-name: fadeInDown;
-    animation-name: fadeInDown;
-}
-
-.about p {
-    color: #999;
-}
-
 .schedule {
     color: #fff;
     background-color: #0091D6;
@@ -649,11 +629,6 @@ footer {
     padding-top: 125px;
     padding-bottom: 125px;
 }
-
-.schedule p {
-
-}
-
 .board {
     color: #0091D6;
     background-color: #fff;
@@ -674,7 +649,6 @@ footer {
 }
 
 .board img {
-
     box-shadow:12px 0px 0px 12px rgba(0,145,214,.2),
                 -12px 0px 0px 12px rgba(255,186,2,0.2);
 }
@@ -728,13 +702,6 @@ footer {
 
 }
 
-.about.start {
-    opacity:1;
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    transform:scale(1);
-}
 
 .scrollimation.fade-in{
     opacity:0;
@@ -827,10 +794,6 @@ footer {
     background-repeat: no-repeat;
     background-size: cover;
     margin:20px auto;
-}
-
-.left-align {
-    text-align:left;
 }
 
 .contact-section {
@@ -962,10 +925,6 @@ footer {
     font-size:30px;
     line-height:42px;
     padding-top:14px;
-}
-
-.text-center {
-    text-align: center;
 }
 
 #contact-form .form-control:focus {
@@ -1113,9 +1072,6 @@ img::-moz-selection {
     background: 0 0;
 }
 
-body {
-    webkit-tap-highlight-color: rgba(255,255,255,.2);
-}
 
 #custom-env {
     color: rgba(0,145,214,.5)
