@@ -6,7 +6,6 @@ $(document).ready(function() {
     // tbh im not entirely sure this needs to be a jquery variable
     var $event = $(this).attr('id');
 
-
     // there's probably better logic to this i guess
     $(".event-info").fadeOut(function() {
       var blurb = "";
@@ -16,72 +15,66 @@ $(document).ready(function() {
 
         // FRIDAY: Registration
         case "e1":
-          blurb = "It's registration...that's self-explanatory, right? right???";
+          blurb = "The event details for Friday's registration have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // FRIDAY: GenAPA
         case "e2":
-          blurb = "this is the second event";
+          blurb = "The event details for GenAPA have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Morning registration
         case "e3":
-          blurb = "Morning Registration lorem ipsum something or another"
+          blurb = "The event details for Saturday's registration have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Small Pod I
         case "e4":
-          blurb = "Lorem dim sum Congee Shangai steam buns chicken feet mini egg tarts steamed sponge cake tofu with syrup" +
-                  " Jin deui Chicken feet Potstickers stir fried radish";
+          blurb = "The event details for small pod I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Workshop Session I
         case "e5":
-          blurb = "Lorem dim sum Haam sui gau Jiu cai bau Zhaliang Pei guen Lo baak gou Taro cake Deep fried pumpkin and" +
-                  " egg-yolk ball vegetarian crisp spring rolls dried scallop and leek puff." +
-                  " Beef shank pork spiced salt baked octopus Fung zao Ngao yuk kau Pai gwut.";
+          blurb = "The event details for workshop session I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Small Pod II
         case "e6":
-          blurb = "Lorem dim sum Crispy dragon roll honeydew puree with sago deep fried garlicky fish ball chee cheong fun" +
-                  " with barbecued pork steamed radish cake steamed bun with premium lotus paste.";
+          blurb = "The event details for small pod II have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Lunch
         case "e7":
-          blurb = "Cake sugar plum soufflé jelly-o pie. Cheesecake sweet chocolate bonbon chupa chups oat cake sweet roll" +
-                  " muffin tart. Macaroon croissant caramels lollipop cupcake. Soufflé brownie powder marzipan chupa chups cotton candy bonbon tootsie roll donut.";
+          blurb = "The event details for lunch on Saturday have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Workshop session II (M-rep Meetings, Bid proposal)
         case "e8":
-          blurb = "do you know how long it takes to find this many lorem ipsums";
+          blurb = "The event details for workshop session II have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Workshop session III
         case "e9":
-          blurb = "far too long.";
+          blurb = "The event details for workshop session III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Small pod III
         case "e10":
-          blurb = ";_;";
+          blurb = "The event details for small pod III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Break
         case "e11":
-          blurb =";_;...";
+          blurb = "The event details for Saturday's break have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Banquet
         case "e12":
-          blurb = "lksadflkjas";
+          blurb = "The event details for the banquet have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // For if they click any other row
         default:
-
           blurb = "Click on an event to show more info!";
       }
 
