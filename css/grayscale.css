@@ -313,7 +313,7 @@ a:hover, a:focus {
 }
 
 .intro .intro-body .brand-heading {
-    font-size: 48px;
+    font-size: 24px;
 }
 
 .intro .intro-body .intro-text {
@@ -378,7 +378,7 @@ a:hover, a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 100px;
+        font-size: 80px;
     }
 
     .intro .intro-body .intro-text {
@@ -1087,4 +1087,10 @@ img::-moz-selection {
 
 .gray-row {
     background-color: rgba(222,222,222,.8);
+}
+
+@media(min-width:768px) {
+    .about-row {
+        padding: 50px 300px 50px 300px;
+    }
 }
