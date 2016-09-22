@@ -46,7 +46,6 @@ p {
 
     .about-font {
         font-size: 16px;
-        text-align: left;
     }
 }
 
@@ -452,7 +451,8 @@ a:hover, a:focus {
 }
 
 .section-header {
-    line-height: 20px!important;
+    line-height: 40px!important;
+    font-size: 40px!important;
 }
 
 @-webkit-keyframes pulse {
@@ -1075,4 +1075,16 @@ img::-moz-selection {
 
 #custom-env {
     color: rgba(0,145,214,.5)
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.gray-row {
+    background-color: rgba(222,222,222,.8);
 }
