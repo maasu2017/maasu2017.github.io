@@ -1094,3 +1094,8 @@ img::-moz-selection {
         padding: 50px 300px 50px 300px;
     }
 }
+
+.about-row {
+    padding-top: 50px;
+    padding-bottom: 50px
+}
