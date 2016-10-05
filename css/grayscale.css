@@ -1108,4 +1108,10 @@ img::-moz-selection {
 #btn-donate {
     color: #0091D6;
     background-color: white;
+    border-color: white;
+}
+
+#btn-donate:hover {
+    color: white;
+    background-color: #0091D6;
 }
