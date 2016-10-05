@@ -1106,5 +1106,6 @@ img::-moz-selection {
 }
 
 #btn-donate {
-    color: #ffffff;
+    color: #0091D6;
+    background-color: white;
 }
