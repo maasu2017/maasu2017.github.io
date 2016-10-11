@@ -106,12 +106,11 @@ $(document).ready(function(){
   $("#c1").on("show.bs.collapse", function(){
     $("#b1").html('<span class="fa fa-chevron-down"></span> Co-Chairs');
   });
-  $(".type-wrap").typed({
+  $("#typed").typed({
       stringsElement: $('#typed-strings'),
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 1000,
-      showCursor: true,
       cursorChar: "|",
       loop: true
   });
