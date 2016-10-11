@@ -110,7 +110,7 @@ $(document).ready(function(){
       stringsElement: $('#typed-strings'),
       typeSpeed: 100,
       backSpeed: 50,
-      backDelay: 1000,
+      backDelay: 1500,
       cursorChar: "|",
       loop: true
   });
