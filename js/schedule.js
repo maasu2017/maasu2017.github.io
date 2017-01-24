@@ -30,7 +30,7 @@ $(document).ready(function() {
 
         // SATURDAY: Small Pod I
         case "e4":
-          blurb = "The event details for small pod I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "The event details for the morning ceremony/small group I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Workshop Session I
@@ -40,37 +40,32 @@ $(document).ready(function() {
 
         // SATURDAY: Small Pod II
         case "e6":
-          blurb = "The event details for small pod II have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "The event details for lunch/small group II have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Lunch
         case "e7":
-          blurb = "The event details for lunch on Saturday have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "The event details for workshop session II on Saturday have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Workshop session II (M-rep Meetings, Bid proposal)
         case "e8":
-          blurb = "The event details for workshop session II have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "The event details for workshop session III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Workshop session III
         case "e9":
-          blurb = "The event details for workshop session III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "The event details for small group III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // SATURDAY: Small pod III
         case "e10":
-          blurb = "The event details for small pod III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "Feel free to spend this time however you want. Buses arrive at 6pm and will leave by 6:30pm.";
           break;
 
         // SATURDAY: Break
         case "e11":
-          blurb = "The event details for Saturday's break have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
-          break;
-
-        // SATURDAY: Banquet
-        case "e12":
-          blurb = "The event details for the banquet have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+          blurb = "The event details for banquet have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
           break;
 
         // For if they click any other row
