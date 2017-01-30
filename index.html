@@ -67,13 +67,13 @@
                         <a class="page-scroll" href="#board">The Board</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#sponsors">Sponsors</a>
+                        <a class="page-scroll" href="#workshop">Workshops</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#donate">Donate</a>
+                        <a class="page-scroll" href="#sponsors">Sponsors</a>
                     </li>
                 </ul>
             </div>
@@ -112,6 +112,7 @@
             </div>
         </div>
     </header>
+
     <!-- About Section -->
     <section id="about" class="container content-section text-center about">
         <h2 class="section-title gray scrollimation scale-in">Who we are<i class="fa fa-university"></i></h2>
@@ -563,6 +564,7 @@
             <i class="fa fa-angle-double-down animated"></i>
         </a>
     </section>
+
     <!-- Board Section -->
     <section id="board" class="container content-section text-center board">
         <h2 class="section-title gray scrollimation scale-in">Meet the board<i class="fa fa-users"></i></h2>
@@ -1041,33 +1043,541 @@
                 </div>
             </div>
             <div class="clearfix visible-lg-block"></div>
-            <a href="#sponsors" class="btn btn-circle blue-circle yellow page-scroll">
+            <a href="#workshop" class="btn btn-circle blue-circle yellow page-scroll">
                 <i class="fa fa-angle-double-down animated"></i>
             </a>
         </div>
     </section>
-    <!-- Sponsors Section -->
-    <section id="sponsors" class="container content-section text-center sponsors">
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
-                <h2 class="section-title scrollimation scale-in">Check out our amazing sponsors<i class="fa fa-star"></i></h2>
+
+    <!-- Workshop Section -->
+    <section id="workshop" class="container content-section schedule text-center">
+        <div class="row schedule-row">
+            <h2 class="section-title scrollimation scale-in">Workshops<i class="fa fa-calendar-check-o"></i></h2>
+            <div class="col-lg-7 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 hidden-xs">
+                <table class="table table-hover text-left">
+                  <!-- Please note: if you choose to change the tr id's, make the appropriate ammendments to schedule.js -->
+                  <thead>
+                        <tr>
+                            <th style="font-size: 200%; border: none;">Keynote Speaker</th>
+                        </tr>
+                        <tr>
+                            <th>Title</th>
+                            <th>Led By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="wkey">
+                            <td>Keynote Address</td>
+                            <td>Franny Choi</td>
+                        </tr>
+                    </tbody>
+                    <thead>
+                        <tr>
+                            <th style="font-size: 200%; border: none;">Workshop Sessions</th>
+                        </tr>
+                        <tr>
+                            <th>Workshop Title</th>
+                            <th>Led By</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr id="w1">
+                            <td>Asian/Pacific Islander American (APIA) Media, Writing, and Identity</td>
+                            <td>Frances Kai-Hwa Wang</td>
+                        </tr>
+                        <tr id="w2">
+                            <td>10 Things Dumb Well Intended People Say</td>
+                            <td>Jack Nguyen</td>
+                        </tr>
+                        <tr id="w3">
+                            <td>Grassroots to Social Media</td>
+                            <td>Jack Nguyen</td>
+                        </tr>
+                        <tr id="w4">
+                            <td>Mass Action and Results in Aftermath of APIA Grievances</td>
+                            <td>Roland Hwang</td>
+                        </tr>
+                        <tr id="w5">
+                            <td>Students4Justice: Coalition Building and Organizing around Our Issues</td>
+                            <td>Vikrant Garg, et al.</td>
+                        </tr>
+                        <tr id="w6">
+                            <td>Racial Triangulation, Homogenization, And Racialization – Immigration histories and Asian-American Identity</td>
+                            <td>Vikrant Garg, et al.</td>
+                        </tr>
+                        <tr id="w7">
+                            <td>APIA Self esteem and Body Image</td>
+                            <td>Tina Yu, Jerin Lee</td>
+                        </tr>
+                        <tr id="w8">
+                            <td>What is Asians/Trans said the Stuff that Whites/Heteros Say? Looking forward towards Solidarity</td>
+                            <td>Naoko Wake</td>
+                        </tr>
+                        <tr id="w9">
+                            <td>How can Activism March with Scholarship? Turning Academic Learning into a Resource for Social Justice and Change on Campus</td>
+                            <td>Victor Jew</td>
+                        </tr>
+                        <tr id="w10">
+                            <td>APIA Mental Health (WIP)</td>
+                            <td>[CAPS] Min Ji Yang, Reena Sheth</td>
+                        </tr>
+                        <tr id="w11">
+                            <td>Korean Adoptees and the APIA Community</td>
+                            <td>Erica Gehringer, Greg Monroe</td>
+                        </tr>
+                        <tr id="w12">
+                            <td>Palestine and A/PIA</td>
+                            <td>Meryem Kamil</td>
+                        </tr>
+                        <tr id="w13">
+                            <td>Grace Lee Boggs, Martin Luther King, and United We Stand--Understanding History, Dialectics and Social Change</td>
+                            <td>Joseph A. Galura</td>
+                        </tr>
+                        <tr id="w14">
+                            <td>Filipinx-American Historical Legacies: Decolonize, Name, Reclaim</td>
+                            <td>Stephanie Manke, Annabelle Estera</td>
+                        </tr>
+                        <tr id="w15">
+                            <td>South Asian Sexuality and Gender Reclamation</td>
+                            <td>Swati Sudarsan</td>
+                        </tr>
+<!--                         <tr id="w16">
+                            <td>TBD</td>
+                            <td>Anum Chaudhry, Amaal</td>
+                        </tr> -->
+                        <tr id="w17">
+                            <td>“Where are you really from?”: A Look into Belonging in America</td>
+                            <td>Sean Liu</td>
+                        </tr>
+                        <tr id="w18">
+                            <td>Our Stories, Our Voices: Growing Up Asian American</td>
+                            <td>Harsha Nahata, Cat Knoerr</td>
+                        </tr>
+                        <tr id="w19">
+                            <td>Community Centered Strategies to Counteract Gentrification</td>
+                            <td>[The DAY Project] Soh Suzuki</td>
+                        </tr>
+                        <tr id="w20">
+                            <td>Check all that apply: Asian, and Also _____.</td>
+                            <td>Abby Chien</td>
+                        </tr>
+                        <tr id="w21">
+                            <td>Pursuing Justice Outside of the Workplace</td>
+                            <td>Rosalie Shyu</td>
+                        </tr>
+                        <tr id="w22">
+                            <td>The Global AIPA Leader in the 21st Century: Breaking the Barriers of Inequality in STEM Areas</td>
+                            <td>Aurelio Curbelo</td>
+                        </tr>
+                        <tr id="w23">
+                            <td>Room to Improv(e): Interacting with your Campus Community</td>
+                            <td>Xavier Hernandez</td>
+                        </tr>
+                        <tr id="w24">
+                            <td>Coming Full Circle: The Power of Extra-Curricular Spaces</td>
+                            <td>Xavier Hernandez</td>
+                        </tr>
+                        <tr id="w25">
+                            <td>Do You See Me? The Need for Representation in Literature Across Content Areas</td>
+                            <td>Mai Lo Lee</td>
+                        </tr>
+<!--                         <tr id="w26">
+                            <td>Being Inclusive or Exclusive: A Talk on AAPI Communities</td>
+                            <td>Hli Vang</td>
+                        </tr> -->
+                        <tr id="w27">
+                            <td>Supporting Asian-Interest Student Organizations - What Works?</td>
+                            <td>Elvin Chan</td>
+                        </tr>
+<!--                         <tr id="w28">
+                            <td>Japanese American Incarceration</td>
+                            <td>Christine Munteanu</td>
+                        </tr> -->
+<!--                         <tr id="w29">
+                            <td>Supporting All of Us: Creating Space for Intersecting Identities within APIA Organizations</td>
+                            <td>Aleidra Allen</td>
+                        </tr> -->
+                        <tr id="w30">
+                            <td>APIA Community in Hip Hop</td>
+                            <td>Ryan Jimenez and Stone Stewart</td>
+                        </tr>
+                        <tr id="w31">
+                            <td>Accept and Respect: The Pathway to Unification</td>
+                            <td>Nicole Brindejonc</td>
+                        </tr>
+                        <tr id="w32">
+                            <td>Asian American Student-Organized Cultural Shows</td>
+                            <td>Amy Stillman</td>
+                        </tr>
+                        <tr id="w33">
+                            <td>Hula - Fact and Fiction</td>
+                            <td>Amy Stillman</td>
+                        </tr>
+                        <tr id="w34">
+                            <td>TBD</td>
+                            <td>Linh Nguyen</td>
+                        </tr>
+                        <tr id="w35">
+                            <td>AAPI Racialization in the 21st Century: From Ferguson to Trump</td>
+                            <td>Purvi Patel</td>
+                        </tr>
+                        <tr id="w36">
+                            <td>Intersections of 1.5 Generation Immigrants</td>
+                            <td>Kenny Importante</td>
+                        </tr>
+                        <tr id="w37">
+                            <td>TBD</td>
+                            <td>Andy Bui, Toni Wang, Priyanka Shanmugasundaram</td>
+                        </tr>
+                        <tr id="w38">
+                            <td>TBD</td>
+                            <td>Sarah Hong</td>
+                        </tr>
+                        <tr id="w39">
+                            <td>Uncovered APIA</td>
+                            <td>Cheryl Zhang</td>
+                        </tr>
+                        <tr id="w40">
+                            <td>Learning from South Asian American Pasts</td>
+                            <td>Manan Desai</td>
+                        </tr>
+<!--                         <tr id="w41">
+                            <td>Title</td>
+                            <td>Author</td>
+                        </tr> -->
+<!--                         <tr id="w42">
+                            <td>Title</td>
+                            <td>Author</td>
+                        </tr> -->
+                    </tbody>
+                </table>
             </div>
-            <div class="col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 col-sm-12 text-center">
-                <div class="scrollimation fade-up">
-                    <!--<a href="http://www.confucius.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-1.png" alt="sponsor1"></a>
-                    <a href="http://rha.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-2.png" alt="sponsor2"></a>
-                    <a href="https://trotter.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-3.png" alt="sponsor3" style="max-width: 70%;"></a>
-                    <a href="http://artsatmichigan.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-4.png" alt="sponsor4" style="max-width: 60%;"></a>-->
-                    <a href="http://bicentennial.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-5.png" alt="Bicentennial" style="max-width: 80%; padding-bottom: 25px"></a>
-                    <a href="http://mesa.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-6.png" alt="MESA" style="width: 60%; padding-bottom: 25px;"></a>
-                    <a href="https://csg.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-7.png" alt="CSG" style="max-width: 40%; padding-bottom: 50px;"></a>
-                    <a href="http://oami.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-8.png" alt="OAMI" style="max-width: 60%; padding-bottom: 25px;"></a>
+            <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs">
+                <div class="white-bg workshop-info">
+                    Click on an event to show more info!
                 </div>
-                <a href="#contact" class="btn btn-circle yellow page-scroll" style="margin-top:100px">
-                    <i class="fa fa-angle-double-down animated"></i>
-                </a>
             </div>
+
+            <!-- Mobile view for the schedule! -->
+            <div class="col-xs-12 visible-xs-block">
+              <!-- If you wish to add more events, replace every instance of "Ex" within the panel div, where x is an integer and E is a capital E, with a number not already taken-->
+              <!-- There are 5 per event panel (three CEx and two Ex) -->
+              <!--- Friday events --->
+              <div class="row">
+                <div class="col-xs-12">
+                  <p style="color: #eee">Tap on a row in the schedule to see more detailed information.</p>
+                </div>
+              </div>
+              <h2>Friday</h2>
+              <div class="panel-group" id="friday" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="fridayE1">
+                    <h5>
+                      <a role="button" data-toggle="collapse" data-parent="#friday" href="#fridayCE1" aria-expanded="true" aria-controls="fridayCE1" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            8:00am - 10:00am
+                          </div>
+                          <div class="col-xs-8">
+                            Registration
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="fridayCE1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="fridayE1">
+                    <div class="panel-body">
+                      Registration event info
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="fridayE2">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#friday" href="#fridayCE2" aria-expanded="false" aria-controls="fridayCE2">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            7:00pm - 10:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            GenAPA
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="fridayCE2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="fridayE2">
+                    <div class="panel-body">
+                      GenAPA event info
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--- Saturday events --->
+              <h2>Saturday</h2>
+              <div class="panel-group" id="saturday" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE1">
+                    <h5>
+                      <a role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE1" aria-expanded="true" aria-controls="saturdayCE1" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            8:00am - 10:00am
+                          </div>
+                          <div class="col-xs-8">
+                            Morning Registration
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE1">
+                    <div class="panel-body">
+                      Morning registration event info
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE2">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE2" aria-expanded="false" aria-controls="saturdayCE2">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            10:00am - 11:00am
+                          </div>
+                          <div class="col-xs-8">
+                            Small Pod I
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE2">
+                    <div class="panel-body">
+                      Small pod I event info
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE3">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE3" aria-expanded="false" aria-controls="saturdayCE3" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            11:30am - 12:30pm
+                          </div>
+                          <div class="col-xs-8">
+                            Workshop Session I
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE3">
+                    <div class="panel-body">
+                      Workshop session I event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE4">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE4" aria-expanded="false" aria-controls="saturdayCE4" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            12:30pm - 1:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Small Pod II
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE4" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE4">
+                    <div class="panel-body">
+                      Small Pod II event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE5">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE5" aria-expanded="false" aria-controls="saturdayCE5" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            1:00pm - 2:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Lunch
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE5" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE5">
+                    <div class="panel-body">
+                      Lunch event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE6">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE6" aria-expanded="false" aria-controls="saturdayCE6" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            2:00pm - 3:15pm
+                          </div>
+                          <div class="col-xs-8"  style="font-size: 75%">
+                            Workshop Session II (M-rep Meetings, Bid Proposal)
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE6" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE6">
+                    <div class="panel-body">
+                      Workshop session II event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE7">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE7" aria-expanded="false" aria-controls="saturdayCE7" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            3:30pm - 5:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Workshop Session III
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE7" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE7">
+                    <div class="panel-body">
+                      Workshop session III event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE8">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE8" aria-expanded="false" aria-controls="saturdayCE8" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            5:00pm - 5:15pm
+                          </div>
+                          <div class="col-xs-8">
+                            Small Pod III
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE8" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE8">
+                    <div class="panel-body">
+                      Small Pod III event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE9">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE9" aria-expanded="false" aria-controls="saturdayCE9" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            5:15pm - 7:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Break
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE9" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE9">
+                    <div class="panel-body">
+                      Break event info
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel panel-default">
+                  <div class="panel-heading" role="tab" id="saturdayE10">
+                    <h5>
+                      <a class="collapsed xs-sched-title" role="button" data-toggle="collapse" data-parent="#saturday" href="#saturdayCE10" aria-expanded="false" aria-controls="saturdayCE10" class="xs-sched-title">
+                        <div class="row">
+                          <div class="col-xs-2 time">
+                            7:00pm - 10:00pm
+                          </div>
+                          <div class="col-xs-8">
+                            Banquet
+                          </div>
+                          <div class="col-xs-2">
+                            TBD
+                          </div>
+                        </div>
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="saturdayCE10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="saturdayE10">
+                    <div class="panel-body">
+                      Banquet event info
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
         </div>
+        <a href="#board" class="btn btn-circle yellow page-scroll">
+            <i class="fa fa-angle-double-down animated"></i>
+        </a>
     </section>
     <!-- Contact Section -->
     <section id="contact" class="container content-section text-center sponsors">
@@ -1117,15 +1627,27 @@
             </div>
         </div>
     </section>
-    <section id="donate" class="container content-section text-center sponsors">
-        <h2 class="section-title scrollimation scale-in">Support Us <i class="em em-blush"></i><i class="fa fa-money"></i></h2>
+    <!-- Sponsors Section -->
+    <section id="sponsors" class="container content-section text-center sponsors">
         <div class="row">
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
-                <input type="hidden" name="cmd" value="_s-xclick">
-                <input type="hidden" name="hosted_button_id" value="44ZY8XA8VRDCL">
-                <button type="submit" class="btn btn-default btn-lg" id="btn-donate">Donate Here!</button>
-                <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-            </form>
+            <div class="col-md-8 col-md-offset-2 col-sm-12 text-center">
+                <h2 class="section-title scrollimation scale-in">Check out our amazing sponsors<i class="fa fa-star"></i></h2>
+            </div>
+            <div class="col-md-6 col-md-offset-3 col-lg-4 col-lg-offset-4 col-sm-12 text-center">
+                <div class="scrollimation fade-up">
+                    <!--<a href="http://www.confucius.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-1.png" alt="sponsor1"></a>
+                    <a href="http://rha.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-2.png" alt="sponsor2"></a>
+                    <a href="https://trotter.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-3.png" alt="sponsor3" style="max-width: 70%;"></a>
+                    <a href="http://artsatmichigan.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-4.png" alt="sponsor4" style="max-width: 60%;"></a>-->
+                    <a href="http://bicentennial.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-5.png" alt="Bicentennial" style="max-width: 80%; padding-bottom: 25px"></a>
+                    <a href="http://mesa.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-6.png" alt="MESA" style="width: 60%; padding-bottom: 25px;"></a>
+                    <a href="https://csg.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-7.png" alt="CSG" style="max-width: 40%; padding-bottom: 50px;"></a>
+                    <a href="http://oami.umich.edu/" target="_blank"><img class="sponsor scrollimation fade-up img-responsive" src="img/sponsor-8.png" alt="OAMI" style="max-width: 60%; padding-bottom: 25px;"></a>
+                </div>
+                <a href="#contact" class="btn btn-circle yellow page-scroll" style="margin-top:100px">
+                    <i class="fa fa-angle-double-down animated"></i>
+                </a>
+            </div>
         </div>
     </section>
 
@@ -1180,6 +1702,9 @@
 
     <!-- Schedule whatnots -->
     <script src="js/schedule.js"></script>
+
+    <!-- Workshop -->
+    <script src="js/workshops.js"></script>
 
     <!-- Emoji Support -->
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">

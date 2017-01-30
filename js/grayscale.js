@@ -48,7 +48,7 @@ $('.intro').backstretch([
 
 $('body').append('<img class="preload-image" src="img/contact-bg.jpg" style="display:none;"/>');
 
-$('#sponsors').waypoint(function(direction){
+$('#board').waypoint(function(direction){
 
     if($('.preload-image').length){$('.preload-image').remove();}
 
