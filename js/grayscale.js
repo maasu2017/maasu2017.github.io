@@ -104,7 +104,7 @@ $(document).on('scroll', function() {
   var scrollBottom = $(window).scrollTop() + $(window).height();
   var scrollMid = $(window).scrollTop() + $(window).height()/2;
   var scrollTop = $(this).scrollTop();
-  var panelTop = $('#workshop').position().top;
+  var panelTop = $('#workshop').position().top - 5;
   var panelBottom = $('#workshop').offset().top + $('#workshop').outerHeight(true);
   var tableBottom = $('#workshop-table').offset().top + $('#workshop-table').outerHeight(true);
   var infoBottom = $('#workshop-p').offset().top + $('#workshop-p').outerHeight(true);
