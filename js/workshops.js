@@ -33,7 +33,7 @@ $(document).ready(function() {
           break;
 
         case "w5":
-          blurb = "This workshop is led by Nicole Brindejonc, the founder of the Pacific Islander Student Association at the University of Michigan. It will discuss the ways that acceptance and respect of racial identities (or really any identity for that matter) are critical components in the path to unifying A/PIA and non-A/PIA groups on college campuses throughout the Midwest and beyond. ";
+          blurb = "This workshop will analyze Students4Justice, an organization created around explicitly racist and xenophobic acts on campus, and its organizing efforts. This will be a time for us to be able to focus on what organizing can look like on our own campuses, and how we can create a coalition where we are uncompromising in our organizing and strategically use the language of our university administrations to push for accountability.";
           break;
 
         case "w6":

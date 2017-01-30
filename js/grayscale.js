@@ -4,6 +4,7 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+
 //Page Preloader
 $(window).load(function(){
     $('#page-loader').fadeOut(500);
@@ -98,6 +99,28 @@ function checkAnimation($elem) {
         $elem.blur()
     }
 }
+
+$(document).on('scroll', function() {
+  var scrollBottom = $(window).scrollTop() + $(window).height();
+  var scrollMid = $(window).scrollTop() + $(window).height()/2;
+  var scrollTop = $(this).scrollTop();
+  var panelTop = $('#workshop').position().top;
+  var panelBottom = $('#workshop').offset().top + $('#workshop').outerHeight(true);
+  var tableBottom = $('#workshop-table').offset().top + $('#workshop-table').outerHeight(true);
+  var infoBottom = $('#workshop-p').offset().top + $('#workshop-p').outerHeight(true);
+  var arrowBottom = $('#workshop-arrow').offset().top + $('#workshop-arrow').outerHeight(true);
+
+  if(scrollTop >= panelTop && scrollMid < arrowBottom && !$('#workshop-p').hasClass('wfix')){
+    $('#workshop-p').addClass('wfix').fadeIn(200);
+  }
+
+  if((scrollMid >= arrowBottom || scrollTop <= panelTop) && $('#workshop-p').hasClass('wfix')) {
+    $('#workshop-p').fadeOut(200, function() {
+      $('#workshop-p').removeClass('wfix');
+    });
+  }
+
+});
 
 $(document).ready(function(){
   $("#c1").on("hide.bs.collapse", function(){
