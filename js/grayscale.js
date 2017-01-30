@@ -122,7 +122,6 @@ $(document).on('scroll', function() {
   else if(scrollTop < panelTop && $('#workshop-p').hasClass('wfix')) {
     $('#workshop-p').removeClass('wfix');
   }
-
 });
 
 $(document).ready(function(){
