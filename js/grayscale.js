@@ -114,7 +114,7 @@ $(document).on('scroll', function() {
     $('#workshop-p').addClass('wfix').fadeIn(200);
   }
 
-  else if((scrollMid >= arrowBottom || scrollTop <= panelTop) && $('#workshop-p').hasClass('wfix')) {
+  else if((scrollMid >= arrowBottom || scrollTop < panelTop) && $('#workshop-p').hasClass('wfix')) {
     $('#workshop-p').fadeOut(200, function() {
       $('#workshop-p').removeClass('wfix');
     });
