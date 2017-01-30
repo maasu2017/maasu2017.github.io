@@ -1142,13 +1142,14 @@ img::-moz-selection {
     padding-bottom: 50px
 }
 
-#btn-donate {
+#btn-reg {
+    margin-top: 25px;
     color: #0091D6;
     background-color: white;
     border-color: white;
 }
 
-#btn-donate:hover {
+#btn-reg:hover {
     color: white;
     background-color: #0091D6;
 }
