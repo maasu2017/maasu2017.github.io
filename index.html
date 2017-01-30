@@ -157,87 +157,86 @@
         <div class="row schedule-row">
             <h2 class="section-title scrollimation scale-in">Your Itinerary for the day...<i class="fa fa-calendar-check-o"></i></h2>
             <div class="col-lg-7 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 hidden-xs">
-                <table class="table table-hover text-left">
+                <table class="table table-hover text-left" id="schedule-table">
                   <!-- Please note: if you choose to change the tr id's, make the appropriate ammendments to schedule.js -->
-                <thead>
-                    <tr>
-                        <th style="font-size: 200%; border: none;">Friday</th>
-                    </tr>
-                    <tr>
-                        <th>When</th>
-                        <th>What</th>
-                        <th>Where</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr id="e1">
-                        <td>5:00pm - 11:00pm</td>
-                        <td>Registration</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr id="e2">
-                        <td>7:00pm - 10:00pm</td>
-                        <td>GenAPA</td>
-                        <td>Lydia Mendelssohn Theatre</td>
-                    </tr>
-                </tbody>
-                <tbody>
-                <thead>
-                    <tr>
-                        <th style="font-size: 200%; border: none;">Saturday</th>
-                    </tr>
-                    <tr>
-                        <th>When</th>
-                        <th>What</th>
-                        <th>Where</th>
-                    </tr>
-                </thead>
-                    <tr id="e3">
-                        <td>8:00am - 9:00am</td>
-                        <td>Morning Registration</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr id="e4">
-                        <td>9:00am - 10:40am</td>
-                        <td>Morning Ceremony / Small Group I</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr id="e5">
-                        <td>10:50am - 12:10pm</td>
-                        <td>Workshop Session I</td>
-                        <td>Varies</td>
-                    </tr>
-                    <tr id="e6">
-                        <td>12:10pm - 1:40pm</td>
-                        <td>Lunch / Small Group II (M-Rep Meetings, Bid Proposals)</td>
-                        <td>With Small Group</td>
-                    </tr>
-                    <tr id="e7">
-                        <td>1:40pm - 3:00pm</td>
-                        <td>Workshop Session II</td>
-                        <td>Varies</td>
-                    </tr>
-                    <tr id="e8">
-                        <td>3:10pm - 4:30pm</td>
-                        <td>Workshop Session III</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr id="e9">
-                        <td>4:40pm - 5:25pm</td>
-                        <td>Small Group III</td>
-                        <td>TBD</td>
-                    </tr>
-                    <tr id="e10">
-                        <td>5:25pm - 6:30pm</td>
-                        <td>Break</td>
-                        <td>Up to you!</td>
-                    </tr>
-                    <tr id="e11">
-                        <td>6:30pm - 9:30pm</td>
-                        <td>Banquet / Keynote II</td>
-                        <td>TBD</td>
-                    </tr>
-                </tbody>
+                    <tbody>
+                        <thead>
+                            <tr>
+                                <th style="font-size: 200%; border: none;">Friday</th>
+                            </tr>
+                            <tr>
+                                <th>When</th>
+                                <th>What</th>
+                                <th>Where</th>
+                            </tr>
+                        </thead>
+                        <tr id="e1">
+                            <td>5:00pm - 11:00pm</td>
+                            <td>Registration</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr id="e2">
+                            <td>7:00pm - 10:00pm</td>
+                            <td>GenAPA</td>
+                            <td>Lydia Mendelssohn Theatre</td>
+                        </tr>
+                    
+                        <thead>
+                            <tr>
+                                <th style="font-size: 200%; border: none;">Saturday</th>
+                            </tr>
+                            <tr>
+                                <th>When</th>
+                                <th>What</th>
+                                <th>Where</th>
+                            </tr>
+                        </thead>
+                        <tr id="e3">
+                            <td>8:00am - 9:00am</td>
+                            <td>Morning Registration</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr id="e4">
+                            <td>9:00am - 10:40am</td>
+                            <td>Morning Ceremony / Small Group I</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr id="e5">
+                            <td>10:50am - 12:10pm</td>
+                            <td>Workshop Session I</td>
+                            <td>Varies</td>
+                        </tr>
+                        <tr id="e6">
+                            <td>12:10pm - 1:40pm</td>
+                            <td>Lunch / Small Group II (M-Rep Meetings, Bid Proposals)</td>
+                            <td>With Small Group</td>
+                        </tr>
+                        <tr id="e7">
+                            <td>1:40pm - 3:00pm</td>
+                            <td>Workshop Session II</td>
+                            <td>Varies</td>
+                        </tr>
+                        <tr id="e8">
+                            <td>3:10pm - 4:30pm</td>
+                            <td>Workshop Session III</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr id="e9">
+                            <td>4:40pm - 5:25pm</td>
+                            <td>Small Group III</td>
+                            <td>TBD</td>
+                        </tr>
+                        <tr id="e10">
+                            <td>5:25pm - 6:30pm</td>
+                            <td>Break</td>
+                            <td>Up to you!</td>
+                        </tr>
+                        <tr id="e11">
+                            <td>6:30pm - 9:30pm</td>
+                            <td>Banquet / Keynote II</td>
+                            <td>TBD</td>
+                        </tr>
+                    </tbody>
                 </table>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs">
@@ -1057,7 +1056,7 @@
         <div class="row workshop-row">
             <h2 class="section-title scrollimation scale-in">Workshops<i class="fa fa-graduation-cap"></i></h2>
             <div class="col-lg-7 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 hidden-xs" id="workshop-table">
-                <table class="table table-hover text-left">
+                <table class="table table-hover text-left" id="workshop-table">
                   <!-- Please note: if you choose to change the tr id's, make the appropriate ammendments to schedule.js -->
                   <thead>
                         <tr>

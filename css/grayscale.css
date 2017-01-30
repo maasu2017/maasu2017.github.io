@@ -1149,6 +1149,8 @@ img::-moz-selection {
     border-color: white;
 }
 
+.table tbody tr.highlight td { background-color: white; color: #0091D6;}
+
 #btn-reg:hover {
     color: white;
     background-color: #0091D6;

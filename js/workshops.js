@@ -176,9 +176,8 @@ $(document).ready(function() {
           blurb = "TBD";
           break;
 
-
         default:
-          blurb = "Click on an event to show more info!";
+          blurb = "Click on a workshop to show more info!";
       }
 
         // And the blurb replaces the html contents of the event info div

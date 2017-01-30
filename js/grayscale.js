@@ -125,6 +125,9 @@ $(document).on('scroll', function() {
 });
 
 $(document).ready(function(){
+  $('#workshop-table').on('click', 'tbody tr', function(event) {
+    $(this).addClass('highlight').siblings().removeClass('highlight');
+  });
   $("#c1").on("hide.bs.collapse", function(){
     $("#b1").html('<span class="fa fa-chevron-right"></span> Co-Chairs');
   });
