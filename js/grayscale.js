@@ -156,7 +156,7 @@ $(document).ready(function(){
     $("#b3").html('<span class="fa fa-chevron-right"></span> Finance');
   });
   $("#c3").on("show.bs.collapse", function(){
-    $("#b3").html('<span class="fa fa-chevron-down"></span> Finanace');
+    $("#b3").html('<span class="fa fa-chevron-down"></span> Finance');
   });
 });
 $(document).ready(function(){
