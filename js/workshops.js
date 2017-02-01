@@ -77,7 +77,7 @@ $(document).ready(function() {
           break;
 
         case "w16":
-          blurb = "";
+          blurb = "TBD";
           break;
 
         case "w17":
@@ -117,7 +117,7 @@ $(document).ready(function() {
           break;
 
         case "w26":
-          blurb = "";
+          blurb = "This workshop will engage attendees in stimulating discussion surrounding inclusivity with AAPI student organizations. For student organizations who are challenged with programing around one specific ethnic group 'too much', how do you acknowledge and move forward? Do you talk briefly about many groups or take longer and focus on a few ethnic groups? This workshop will consist of group discussions and brainstorm ideas of successful outcomes to bring back to campus.";
           break;
 
         case "w27":
@@ -125,11 +125,11 @@ $(document).ready(function() {
           break;
 
         case "w28":
-          blurb = "";
+          blurb = "This workshop would provide a historical overview of the WWII Japanese American incarceration, and invite participants to consider its modern-day implications.";
           break;
 
         case "w29":
-          blurb = "";
+          blurb = "Each of your organizations builds community for students centered around one shared identity. However, even though that one identity is shared, there is still diversity within it. Each member possesses other identities that may or may not be shared by all or most of the group. How do you ensure that all students from your shared identity feel included and supported, even if they posses intersecting identities (nationality, sexual orientation, religion, gender) that are in the minority within the organization? Let's talk about and develop strategies together. \n In this workshop, intersectionality will be defined and students will be able to name types of identities that people can hold. Students will understand the importance of being inclusive of all identities in order to be most effective and successful in supporting students of their organization\'s primary identity. Students will share experiences in the large group, and then break into small groups to share ideas and develop strategies for being inclusive of intersecting identities.";
           break;
 
         case "w30":
@@ -149,7 +149,7 @@ $(document).ready(function() {
           break;
 
         case "w34":
-          blurb = "TBD";
+          blurb = "Ally and coalition building on campus as leaders can be a challenge and yet powerful when efforts are successful in building and maintaining these relationships. Racial climate on our college campuses as well as in our society at large call us to consider more effective and meaningful ways we can support one another as individuals and communities of diverse backgrounds and experiences. Session will explore core concepts, resources, and tools around allyhood and coalition building as the foundation for participants to consider their own goals and motivations as individuals to build solidarity and support within and across racial communities.  In addition to discussion, participants will have the opportunity to do their own action planning on how they might make movement on their current efforts as individuals or student organizations. All are welcome to participate in this discussion regardless of your “roles/titles”in your respective student organizations, as our diverse perspectives and experiences adds value to our collective knowledge.";
           break;
 
         case "w35":
@@ -169,11 +169,47 @@ $(document).ready(function() {
           break;
 
         case "w39":
-          blurb = "TBD";
+          blurb = "From our experience of reaching out to potential writers for Uncover, the most common response we receive is “I don’t have a story to share.” We push back against this notion: Each experience is unique and valid. In this interactive workshop, our goal is to help participants recognize that everyone has a story worth sharing. We aim to encourage discussion amongst participants about the value of sharing personal narratives. We also hope to encourage participants to use Uncover and other social media spaces as platforms to incorporate activism into their everyday lives. Oftentimes, social media activism is frowned upon for its perceived ineffectiveness. However, through our workshop, we hope to show how social media activism can act as a starting point in raising awareness about various social issues, and that it can lead into further engagement with social justice past social media.";
           break;
 
         case "w40":
+          blurb = "Formed in 2008, the South Asian American Digital Archive (SAADA) is a non-profit organization that has aimed to help create tools and resources to recover the rich and complex history of the South Asian diaspora in the United States.  In this presentation, Manan will discuss the origins of the project and how the larger objective to recover the historical presence of South Asians in the U.S. might provide some insights into the obstacles faced by our communities.  Manan will be addressing the long history of xenophobia and racism faced by South Asians in the U.S., and how key individuals and organizations have confronted them in history.  One of the key goals in this presentation will be to connect the historical past with the tumultuous present, and Manan would like to facilitate a discussion in which attendees consider what those connections are.";
+          break;
+
+        case "w41":
+          blurb = "I would love to speak on the trauma of de/colonization, healing through poetry and art, what it means to be racialized as Muslim versus actually being of the faith, the casteism and classism embedded in South Asian migratory patterns & in the diaspora, fantasizing the diaspora, deepening the conversations around cultural appropriation to more than just a tug of war between the 'colonizer' and the 'colonized', and the link between casteism and anti-Black racism within South Asian communities.";
+          break;
+
+        case "w42":
           blurb = "TBD";
+          break;
+
+        case "w43":
+          blurb = "TBD";
+          break;
+
+        case "w44":
+          blurb = "This workshop is intended to make space for LGBTQ+ identified APIA people to share in common experiences of coming out, identity exploration, and queer life. Participants will have the opportunity to participate in activities that center their intersectional experiences for the purpose of self-reflection, but also to use their own stories as tools for social change. This workshop is multi-modal and will allow for large group interaction, small group discussion, and personal reflection. ";
+          break;
+
+        case "w45":
+          blurb = "Bamboo Ceiling Workshop";
+          break;
+
+        case "w46":
+          blurb = "TBD";
+          break;
+
+        case "w47":
+          blurb = "On a topic that seems so prevalent among all human beings, Asian Americans uniquely struggle with discussing such a 'taboo' topic such as sex, whether it's among themselves, friends or family. Therefore, the goal of this workshop is to create a safe yet brave space and sex-positive environment for Asian Americans either who want to talk about issues relating to sex but never felt comfortable doing so (either with their parents or their peers), or Asian Americans who have yet to develop the means or language to talk about sex and sexuality but are curious in doing so.";
+          break;
+
+        case "w48":
+          blurb = "The subtle prejudices of western professional etiquette have insidiously undermined Asian Americans’ potential for leadership in this country: the AAPPI community constitute the highest percentage of degree holders in higher education, and yet also the lowest percentage of those who are promoted to executive level positions. Why is that? This workshop will question the effect of cultural and parental influences on an Asian American trying to access professional American industries, the stereotypes that bar Asian Americans from reaching positions of leadership, and the ways to overcome societal limitations to encourage our future professional growth.";
+          break;
+
+        case "w49":
+          blurb = "The workshop would go over the challenging med school application process (a lot has changed in the past 5 years), the unique obstacles that face AAPI students who would want to pursue a medical career, and how to overcome them. Moreover, we will use the familiar 'AAPIs as doctors' narrative to begin an introspective dialogue in determining whether this career choice stems from one's true passions or from their parents' vs. society's. By also exploring why the stereotype exists, why so many AAPI parents want their children to be in medicine (the role of prestige, the definition of 'success', the desire for 'security'), attendees will be better equipped to discover their own voice in finding a career that is truly meant for them rather one that is spoon-fed by an external influence.";
           break;
 
         default:
