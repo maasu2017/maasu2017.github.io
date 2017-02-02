@@ -212,6 +212,10 @@ $(document).ready(function() {
           blurb = "The workshop would go over the challenging med school application process (a lot has changed in the past 5 years), the unique obstacles that face AAPI students who would want to pursue a medical career, and how to overcome them. Moreover, we will use the familiar 'AAPIs as doctors' narrative to begin an introspective dialogue in determining whether this career choice stems from one's true passions or from their parents' vs. society's. By also exploring why the stereotype exists, why so many AAPI parents want their children to be in medicine (the role of prestige, the definition of 'success', the desire for 'security'), attendees will be better equipped to discover their own voice in finding a career that is truly meant for them rather one that is spoon-fed by an external influence.";
           break;
 
+        case "w50":
+          blurb = "Details coming soon.";
+          break;
+
         default:
           blurb = "Click on a workshop to show more info!";
       }
