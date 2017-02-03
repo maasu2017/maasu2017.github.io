@@ -81,7 +81,7 @@ $(document).ready(function() {
           break;
 
         case "w17":
-          blurb = "This workshop will facilitate a discussion of the perpetual foreigner syndrome and tackling the question, 'Where are you really from?' if, as Asian Americans, we claim to be American, what qualities and characteristics define us as American? Often times Asian Americans can easily list off qualities that make them Asian, but are left with only the fact that they were born in America when defining qualities that make them American. This workshop will explore what it means to be American, largely focused on second generation Asian Americans and onwards.";
+          blurb = "This workshop will facilitate a discussion of the perpetual foreigner syndrome and tackle the question, 'Where are you really from?' If as Asian Americans, we claim to be American, what qualities and characteristics define us as American? Often times Asian Americans can easily list off qualities that make them Asian, but are left with only the fact that they were born in America when defining qualities that make them American. This workshop will explore what it means to be American, largely focused on second generation Asian Americans and onwards.";
           break;
 
         case "w18":
@@ -181,10 +181,6 @@ $(document).ready(function() {
           break;
 
         case "w42":
-          blurb = "TBD";
-          break;
-
-        case "w43":
           blurb = "TBD";
           break;
 
