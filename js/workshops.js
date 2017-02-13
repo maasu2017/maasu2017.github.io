@@ -57,7 +57,7 @@ $(document).ready(function() {
           break;
 
         case "w11":
-          blurb = "Led by a Korean Adoptee, this workshop will explore the topic of inclusivity and acceptance in APIA communities by examining how we assess other APIAs. Being &ldquo;Asian&rdquo; is typically thought of in terms of ethnicity, upbringing, and language skills which generally, adoptees lack and often considered &ldquo;too white&rdquo; for APIAs to relate to. Yet by society&rsquo;s standards, Korean Adoptees are typically treated as any other APIA would be by non APIAs.";
+          blurb = "Led by a Korean Adoptee, this workshop will explore the topic of inclusivity and acceptance in APIA communities by examining how we assess other APIAs. Being Asian is typically thought of in terms of ethnicity, upbringing, and language skills which typically, adoptees lack and often considered are considered too white for APIAs to relate to. Yet by the way that society views us, APIA Adoptees are typically treated as any other APIA would be by non APIAs.";
           break;
 
         case "w12":
@@ -77,7 +77,7 @@ $(document).ready(function() {
           break;
 
         case "w16":
-          blurb = "TBD";
+          blurb = "This hands on workshop sheds light on many disparities affecting minority communities locally and globally, including rural health, environmental, and racial disparities. The workshop encourages participants to critically think about their role and find their voice in attending to disparities. Amaal will present her research in Mongolia regarding the environmental impacts of mining activities in rural areas. Anum’s research focuses on detangling complexities associated with dual identity status. We want to demonstrate solidarity with our participants through our research and workshop activities. Additionally, we hope participants will be motivated to pursue social justice avenues in advocating for the elimination of disparities within minority communities. We anticipate members leaving with the feeling of “sometimes your voice is your most powerful tool.” ";
           break;
 
         case "w17":
@@ -133,7 +133,7 @@ $(document).ready(function() {
           break;
 
         case "w30":
-          blurb = "Our workshop aims to discuss the role Asian Americans play in hip hop culture. We hope to teach about the historical context of hip hop and open up the discussion on the role of Asian Americans in hip hop culture and the social issues that come up at the intersection of these identities. Other important key concepts to discuss are authenticity and commodification. What does it mean to be considered “authentic” hip hop and why is it difficult for Asian Americans to fit that mold? By the end of the workshop, we hope our attendees walk out more inspired to pursue their passions regardless of race or other identities, support other artists in their communities who are doing so, and be able to confidently say that hip hop belongs to everyone.";
+          blurb = "Our workshop aims to discuss the role Asian Americans play in hip hop culture. We hope to teach about the historical context of hip hop, discuss anti-blackness in hip hop, and open up the discussion on the role of Asian Americans in hip hop culture and the social issues that come up at the intersection of these identities. \n\nOther important key concepts to discuss are authenticity and commodification. What does it mean to be considered “authentic” hip hop and why is it difficult for Asian Americans to fit that mold? By the end of the workshop, we hope our attendees walk out more inspired to pursue their passions regardless of race or other identities, support other artists in their communities who are doing so, and be able to confidently say that hip hop belongs to everyone.";
           break;
 
         case "w31":
@@ -176,24 +176,16 @@ $(document).ready(function() {
           blurb = "Formed in 2008, the South Asian American Digital Archive (SAADA) is a non-profit organization that has aimed to help create tools and resources to recover the rich and complex history of the South Asian diaspora in the United States.  In this presentation, Manan will discuss the origins of the project and how the larger objective to recover the historical presence of South Asians in the U.S. might provide some insights into the obstacles faced by our communities.  Manan will be addressing the long history of xenophobia and racism faced by South Asians in the U.S., and how key individuals and organizations have confronted them in history.  One of the key goals in this presentation will be to connect the historical past with the tumultuous present, and Manan would like to facilitate a discussion in which attendees consider what those connections are. ";
           break;
 
-        case "w41":
-          blurb = "I would love to speak on the trauma of de/colonization, healing through poetry and art, what it means to be racialized as Muslim versus actually being of the faith, the casteism and classism embedded in South Asian migratory patterns & in the diaspora, fantasizing the diaspora, deepening the conversations around cultural appropriation to more than just a tug of war between the 'colonizer' and the 'colonized', and the link between casteism and anti-Black racism within South Asian communities.";
-          break;
-
-        case "w42":
-          blurb = "TBD";
-          break;
-
         case "w44":
           blurb = "This workshop is intended to make space for LGBTQ+ identified APIA people to share in common experiences of coming out, identity exploration, and queer life. Participants will have the opportunity to participate in activities that center their intersectional experiences for the purpose of self-reflection, but also to use their own stories as tools for social change. This workshop is multi-modal and will allow for large group interaction, small group discussion, and personal reflection. ";
           break;
 
         case "w45":
-          blurb = "Bamboo Ceiling Workshop";
+          blurb = "Here's the stereotype: you work hard to get good grades. You participate in extracurricular activities to have things to put in an application or resume. But how comfortable are you leading a group of peers? Or having all eyes and ears on you? In this discussion-style workshop, we'll explore the ways Asian American students contribute to their \"invisibility\" and practice skills to become more visible and heard, in the classroom and beyond.";
           break;
 
         case "w46":
-          blurb = "TBD";
+          blurb = "This workshop will bring awarness to the differences between food justice and the charitable model of food security. Attendees will be better equipped to connect the food justice movement to the social justice movement. Attendees will also learn about how systems of oppression intersect and affect people of different identities and learn about how grassroots efforts are cultivating accessible solutions that also intersect to nourish themselves and their communities.";
           break;
 
         case "w47":
@@ -218,6 +210,30 @@ $(document).ready(function() {
 
         case "w52":
           blurb = "The Critical Ethnic & Asian/Pacific Islander American Studies Working Group welcomes you to join us in a workshop on the theme of Asian American mental health in conversation with the Asian American Literary Review’s ‘Open in Emergency: A Special Issue on Asian American Mental Health.’ The journal issue is an arts and humanities intervention that decolonizes mental health, recalibrating existing mental health approaches and resources to better engage race and Asian American experience. In this workshop, participants will be reading excerpts from the journal and engaging in a roundtable discussion on mental health and Asian Americans. The end goal of the workshop is to help destigmatize mental health issues in our communities by paying close attention to structures of racism, heteropatriarchy, etc and to blur the distinctions between self-care and community building.";
+          break;
+
+        case "w53":
+          blurb = "We all have different styles of leadership. Whether you’re the “big-picture thinker” or the “analytical” person, we all have unique strengths when working in a team. Through this workshop, participants will have a chance to figure out which animal they are most connected with and gain a better understanding of their strengths, challenges, and how to best work with other types of personalities in leadership roles.";
+          break;
+
+        case "w54":
+          blurb = "How do we categorize ourselves versus how society categorizes us? Sometimes our overlapping identities can create more systems of discrimination and oppression. Creating awareness can help us better acknowledge and ground our differences in order to promote ally ship. Come join the discussion!";
+          break;
+
+        case "w55":
+          blurb = "Our rich, diverse history is rarely reflected in the history books we grew up with. Why is that? Understanding our community’s history is an important piece in shaping the future of our movements. In order for us to become better advocates for our communities, we must unpack the historical context that is untold, and unwritten. What is your role in shaping history? Come join the discussion!";
+          break;
+
+        case "w56":
+          blurb = "This workshop will be facilitated by Marie Ting, the Associate Director of the National Institute for Diversity. Are you going to graduate school or thinking about it?  This session will provide some very practical tips on surviving…and maybe even thriving in graduate school!";
+          break;
+
+        case "w57":
+          blurb = "Criticisms of identity politics suggest that focus on our own identities prevents us from supporting others. The perceived binary that produces the “Us vs. Them” mentality stems from a long history of an unspoken competition that could only be won through assimilation. In this workshop, we’ll explore the history behind intra-community bias and how we can recognize and move past these prejudices.";
+          break;
+
+        case "w58":
+          blurb = "";
           break;
 
         default:
