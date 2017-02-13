@@ -233,7 +233,11 @@ $(document).ready(function() {
           break;
 
         case "w58":
-          blurb = "";
+          blurb = "The University of Michigan Sexual Assault Prevention and Awareness Center (SAPAC) will be presenting this workshop on healthy relationships through APIA lens. In this workshop, two trained student facilitators will engage in dialogue about what it means to have a healthy relationship, as well as identifying positive behavior components of and reflecting on one&rsquo;s unique needs and desires. This workshop is intended to educate and inform about what constitutes a healthy relationship and how to achieve this while also opening up the workshop for discussion on modern issues that may hinder or prevent their development.";
+          break;
+
+        case "w59":
+          blurb = "The University of Michigan Sexual Assault Prevention and Awareness Center (SAPAC) will be presenting this workshop on bystander intervention, with a focus on situations and issues particularly pertinent to the APIA community. In this workshop, two trained student facilitators will begin with the importance of recognizing situations of interest before discussing the ways one can be equipped for bystander intervention. Participants will then be confronted with hypothetical but realistic settings, requiring students to consider in what situations are bystander intervention necessary, and how one would choose to step in and prevent potential violence.";
           break;
 
         default:
