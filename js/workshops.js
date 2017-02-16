@@ -240,6 +240,14 @@ $(document).ready(function() {
           blurb = "The University of Michigan Sexual Assault Prevention and Awareness Center (SAPAC) will be presenting this workshop on bystander intervention, with a focus on situations and issues particularly pertinent to the APIA community. In this workshop, two trained student facilitators will begin with the importance of recognizing situations of interest before discussing the ways one can be equipped for bystander intervention. Participants will then be confronted with hypothetical but realistic settings, requiring students to consider in what situations are bystander intervention necessary, and how one would choose to step in and prevent potential violence.";
           break;
 
+        case "w60":
+          blurb = "A recent study showed that applicants with \"Asian names\" are 20-40% less likely to receive a callback based on their resume alone - which begs the question, is it worth it to \"whiten\" your resume? Many candidates may need to consider what it takes to really land a job and answer if it's worth hiding your culture to get hired. Find out these secrets about recruiting - resumes - and job interviews with a recruiter with experience from the tech, consulting, accounting and law fields, and more!";
+          break;
+
+        case "w61":
+          blurb = "Fear of Failure is a hands-on approach and in-depth study into how individuals in the Asian American community deal with failure. Using a broad spectrum of topics and techniques from an insight into model minority to how storytelling affects mental health, attendees will be lead on a journey through their own life and then realize their place in the greater community. Be prepared to let go off your fear of failure, your perfectionist tendencies and favorite procrastinating past times.";
+          break;
+          
         default:
           blurb = "Click on a workshop to show more info!";
       }
