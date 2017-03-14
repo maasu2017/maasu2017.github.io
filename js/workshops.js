@@ -7,7 +7,7 @@ $(document).ready(function() {
     var $event = $(this).attr('id');
 
     // there's probably better logic to this i guess
-    $(".workshop-info").fadeOut(function() {
+    $(".workshop-info").stop(true,true).fadeOut(function() {
       var blurb = "";
 
       // idk i thought a switch statement would be a good idea
@@ -253,8 +253,8 @@ $(document).ready(function() {
       }
 
         // And the blurb replaces the html contents of the event info div
-        $(this).html(blurb).fadeIn();
-      }).fadeIn();
+        $(this).html(blurb).stop(true,true).fadeIn();
+      });
     });
 
 });
