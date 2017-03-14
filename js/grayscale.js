@@ -216,11 +216,19 @@ $(document).ready(function(){
   });
 });
 $(document).ready(function(){
-  $("#c10").on("hide.bs.collapse", function(){
-    $("#b10").html('<span class="fa fa-chevron-right"></span> Leadership Development Coordinator');
+  $("#c11").on("hide.bs.collapse", function(){
+    $("#b11").html('<span class="fa fa-chevron-right"></span> Freshmen Representative');
   });
-  $("#c10").on("show.bs.collapse", function(){
-    $("#b10").html('<span class="fa fa-chevron-down"></span> Leadership Development Coordinator');
+  $("#c11").on("show.bs.collapse", function(){
+    $("#b11").html('<span class="fa fa-chevron-down"></span> Freshmen Representative');
+  });
+});
+$(document).ready(function(){
+  $("#c12").on("hide.bs.collapse", function(){
+    $("#b12").html('<span class="fa fa-chevron-right"></span> MAASU Advisor');
+  });
+  $("#c12").on("show.bs.collapse", function(){
+    $("#b12").html('<span class="fa fa-chevron-down"></span> MAASU Advisor');
   });
 });
 // I took out the lorem dim sum from this file, it now lives in schedule.js -tiners
