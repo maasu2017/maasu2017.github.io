@@ -3,12 +3,11 @@ $(document).ready(function() {
     // Creates jQuery variable 'event' that contains a string of whatever value
     // is in the id attribute of the selected row
 
-    // tbh im not entirely sure this needs to be a jquery variable
-    var $event = $(this).attr('id');
+    var ws_id = $(this).attr('id');
     var blurb = "";
 
     // idk i thought a switch statement would be a good idea
-    switch ($event) {
+    switch (ws_id) {
         case "wkey":
           blurb = wkey;
           break;
@@ -248,9 +247,6 @@ $(document).ready(function() {
         default:
           blurb = "Click on a workshop to show more info!";
       }
-
-    // console.log(blurb);
-    // console.log($(this).html());
 
     // there's probably better logic to this i guess
     if ($(".workshop-info").html() !== blurb) {
