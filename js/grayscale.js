@@ -234,8 +234,14 @@ $(document).ready(function(){
 // I took out the lorem dim sum from this file, it now lives in schedule.js -tiners
 
 $('.scrollimation').waypoint(function(){
-        $(this).toggleClass('in');
-    },{offset:'90%'});
+    if ($(this).hasClass('done')) {
+      return;
+    }
+    else {
+      $(this).toggleClass('in');
+      $(this).addClass('done');
+    }
+  },{offset:'90%'});
 
 // Capture scroll events
 $(window).scroll(function(){
