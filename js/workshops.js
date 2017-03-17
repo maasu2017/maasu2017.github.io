@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $("tr").click(function() {
+  $(".grid-item").click(function() {
     // Creates jQuery variable 'event' that contains a string of whatever value
     // is in the id attribute of the selected row
 
@@ -273,7 +273,7 @@ w4 = "Roland Hwang, a UM Adjunct Professor in A/PIA Studies, Attorney and Commis
 
 w5 = "This workshop will analyze Students4Justice, an organization created around explicitly racist and xenophobic acts on campus, and its organizing efforts. This will be a time for us to be able to focus on what organizing can look like on our own campuses, and how we can create a coalition where we are uncompromising in our organizing and strategically use the language of our university administrations to push for accountability.";
 
-w6 = "This workshop will analyze Students4Justice, an organization created around explicitly racist and xenophobic acts on campus, and its organizing efforts. This will be a time for us to be able to focus on what organizing can look like on our own campuses, and how we can create a coalition where we are uncompromising in our organizing and strategically use the language of our university administrations to push for accountability.";
+w6 = "This workshop will focus on racial triangulation theory by Claire Jean Kim and the homogenization and racialization of Asian-American identity. It will look at how this manifests itself in Asian-American apathy and disengagement in leftist organizing. It will look at our own immigration histories and think about the policies in place during the time that our families immigrated to the United States, and how this is specifically linked to a specific framework of anti-blackness.";
 
 w7 = "This workshop will create a discussion regarding the roots, real risks, and repercussions of eating disturbances and body issues, specifically in the APIA community. We will focus on how specific APIA cultural values (e.g., filial piety, family obligation) play into body image issues and eating disturbances in the APIA community as well as intercultural communities. Given this, we would like to provide the audience with coping mechanisms and ways to navigate body image in an increasingly appearance focused society (e.g., promote self-love and care).";
 

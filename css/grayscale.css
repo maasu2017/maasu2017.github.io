@@ -272,6 +272,31 @@ a:hover, a:focus {
     padding: 10px;
 }
 
+.grid .container {
+    padding: 0px;
+}
+
+.grid-item {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    border-style: solid none none none;
+    border-width: 2px;
+}
+
+.grid-item:hover {
+    background-color: white;
+    color: #0091D6;
+}
+
+.workshop-header {
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+#workshop-list {
+    padding: 0px;
+}
+
 @media(min-width: 993px){
     div#workshop-p.wfix {
         position: fixed;

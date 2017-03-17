@@ -1056,320 +1056,345 @@
         <div class="row workshop-row">
             <h2 class="section-title scrollimation scale-in">Workshops<i class="fa fa-graduation-cap"></i></h2>
             <div class="col-lg-7 col-lg-offset-1 col-md-5 col-md-offset-1 col-sm-12 hidden-xs" id="workshop-table">
-                <table class="table table-hover text-left" id="workshop-table" data-toggle="workshop-table" data-filter-control="true" data-filter-show-clear="true">
+                <div class="container row">
+                    <div class="row col-xs-7 text-left workshop-header" style="font-size: 200%;">Workshop Sessions</div>
+
+                    <div class="row col-xs-12 filters">
+                        <div class="button-group pull-left" data-filter-group="category"> <!-- filters-button-group -->
+                            Categories
+                            <button class="button is-checked" data-filter="">All</button>
+                            <button class="button" data-filter=".artcult">Arts & Culture</button>
+                            <button class="button" data-filter=".awareness">Awareness</button>
+                            <button class="button" data-filter=".activism">Activism</button>
+                            <button class="button" data-filter=".identity">Identity</button>
+                            <button class="button" data-filter=".history">History</button>
+                            <button class="button" data-filter=".health">Health</button>
+                            <button class="button" data-filter=".leadprof">Leadership & Professionalism</button>
+                        </div>
+                    </div>
+
+                    <div class="row col-xs-7 filters pull-left">
+                        <div class="button-group pull-left" data-filter-group="session">
+                            Sessions
+                            <button class="button is-checked" data-filter="">All</button>
+                            <button class="button" data-filter=".s1">Session 1</button>
+                            <button class="button" data-filter=".s2">Session 2</button>
+                            <button class="button" data-filter=".s3">Session 3</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 workshop-header">
+                    <div class="col-md-7 text-left" style="font-size: 120%;">Title</div>
+                    <div class="col-md-3 text-left" style="font-size: 120%;">Led By</div>
+                    <div class="col-md-1 text-left" style="font-size: 120%;">Session</div>
+                </div>
+
+                <div class="row col-md-8 container table grid text-left" id="workshop-list">
                   <!-- Please note: if you choose to change the tr id's, make the appropriate ammendments to schedule.js -->
-                    <thead>
-                        <tr>
-                            <th style="font-size: 200%; border: none;">Workshop Sessions</th>
-                        </tr>
-                        <tr>
-                            <th style="font-size: 120%; border: none;" data-field="name" data-filter-control="input">Title</th>
-                            <th style="font-size: 120%; border: none;" data-field="led-by" data-filter-control="input">Led By</th>
-                            <th style="font-size: 120%; border: none;" data-field="Session" data-filter-control="input">Session</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr class="grid-item" id="wkey">
-                            <td>Spoken Word</td>
-                            <td>Franny Choi</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w1">
-                            <td>Asian/Pacific Islander American (APIA) Media, Writing, and Identity</td>
-                            <td>Frances Kai-Hwa Wang</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w2">
-                            <td>10 Things Dumb Well Intended People Say</td>
-                            <td>Jack Nguyen</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w3">
-                            <td>Grassroots to Social Media</td>
-                            <td>Jack Nguyen</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w4">
-                            <td>Mass Action and Results in Aftermath of APIA Grievances</td>
-                            <td>Roland Hwang</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w5">
-                            <td>Students4Justice: Coalition Building and Organizing around Our Issues</td>
-                            <td>Vikrant Garg, et al.</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w6">
-                            <td>Racial Triangulation, Homogenization, And Racialization – Immigration histories and Asian-American Identity</td>
-                            <td>Vikrant Garg, et al.</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w7">
-                            <td>APIA Self esteem and Body Image</td>
-                            <td>Tina Yu, Jerin Lee</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w8">
-                            <td>What if Asians/Trans said the Stuff that Whites/Heteros Say? Looking forward towards Solidarity</td>
-                            <td>Naoko Wake</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w9">
-                            <td>How can Activism March with Scholarship? Turning Academic Learning into a Resource for Social Justice and Change on Campus</td>
-                            <td>Victor Jew</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w10">
-                            <td>[CAPS] APIA Mental Health</td>
-                            <td>[CAPS] Min Ji Yang, Reena Sheth</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w11">
-                            <td>Korean Adoptees and the APIA Community</td>
-                            <td>Erica Gehringer, Katie Corbit</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w12">
-                            <td>Palestine and A/PIA</td>
-                            <td>Meryem Kamil</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w13">
-                            <td>Grace Lee Boggs, Martin Luther King, and United We Stand--Understanding History, Dialectics and Social Change</td>
-                            <td>Joseph A. Galura</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w14">
-                            <td>Filipinx-American Historical Legacies: Decolonize, Name, Reclaim</td>
-                            <td>Stephanie Manke, Annabelle Estera</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w15">
-                            <td>South Asian Sexuality and Gender Reclamation</td>
-                            <td>Swati Sudarsan</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w16">
-                            <td><b><i>Your Voice- A Powerful Tool in Addressing Disparities</i></b></td>
-                            <td>Anum Chaudhry, Amaal Haimout</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w17">
-                            <td>“Where are you really from?”: A Look into Belonging in America</td>
-                            <td>Sean Liu</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w18">
-                            <td>Our Stories, Our Voices: Growing Up Asian American</td>
-                            <td>Harsha Nahata, Cat Knoerr</td>
-                            <td>1</td>
-                        </tr>
-                        <tr class="grid-item" id="w19">
-                            <td>Community Centered Strategies to Counteract Gentrification</td>
-                            <td>[The DAY Project] Soh Suzuki</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w20">
-                            <td>Check all that apply: Asian, and Also _____.</td>
-                            <td>Abby Chien</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w21">
-                            <td>Pursuing Justice Outside of the Workplace</td>
-                            <td>Rosalie Shyu</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w22">
-                            <td>The Global APIA Leader in the 21st Century: Breaking the Barriers of Inequality in STEM Areas</td>
-                            <td>Aurelio Curbelo</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w23">
-                            <td>Room to Improv(e): Interacting with your Campus Community</td>
-                            <td>Xavier Hernandez</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w24">
-                            <td>Coming Full Circle: The Power of Extra-Curricular Spaces</td>
-                            <td>Xavier Hernandez</td>
-                            <td>1</td>
-                        </tr>
-                        <tr class="grid-item" id="w25">
-                            <td>Do You See Me? The Need for Representation in Literature Across Content Areas</td>
-                            <td>Mai Lo Lee</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w26">
-                            <td>Being Inclusive or Exclusive: A Talk on AAPI Communities</td>
-                            <td>Hli Vang</td>
-                            <td>1</td>
-                        </tr>
-                        <tr class="grid-item" id="w27">
-                            <td>Supporting Asian-Interest Student Organizations - What Works?</td>
-                            <td>Elvin Chan</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w28">
-                            <td>Japanese American Incarceration</td>
-                            <td>Christine Munteanu</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w29">
-                            <td>Supporting All of Us: Creating Space for Intersecting Identities within APIA Organizations</td>
-                            <td>Aleidra Allen</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w30">
-                            <td>APIA Community in Hip Hop</td>
-                            <td>Ryan Jimenez and Stone Stewart</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w31">
-                            <td>Accept and Respect: The Pathway to Unification</td>
-                            <td>Nicole Brindejonc</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w32">
-                            <td>Asian American Student-Organized Cultural Shows</td>
-                            <td>Amy Stillman</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w33">
-                            <td>Hula - Fact and Fiction</td>
-                            <td>Amy Stillman</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w34">
-                            <td>Ally and Coalition Building as A/PIA Leaders on Campus</td>
-                            <td>Linh Nguyen</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w35">
-                            <td>AAPI Racialization in the 21st Century: From Ferguson to Trump</td>
-                            <td>Purvi Patel</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w36">
-                            <td>Intersections of 1.5 Generation Immigrants</td>
-                            <td>Kenny Importante</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w37">
-                            <td>LGBTQ+ APIA Caucus</td>
-                            <td>Andy Bui, Toni Wang, Priyanka Shanmugasundaram</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w38">
-                            <td>Trending on Insta: Social Justice and Consumer Capitalism</td>
-                            <td>Sarah Hong</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w39">
-                            <td>Speak Up, Speak Out: Reworking Activism Through Social Media</td>
-                            <td>Uncover: A/PIA</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w40">
-                            <td>Learning from South Asian American Pasts</td>
-                            <td>Manan Desai</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w44">
-                            <td>You Can't Be Gay, You're Filipino! Intersectional LGBTQ+ Identity</td>
-                            <td>Gabriel Javier</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w45">
-                            <td>Finding (and Using) YOur Voice: Skill-building for Asian Americans</td>
-                            <td>Soojin Kwon</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w46">
-                            <td><b><i>The Intersections of Food Justice</i></b></td>
-                            <td>Shane Bernardo</td>
-                            <td>2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w47">
-                            <td><b><i>Asian Americans & Sex</i></b></td>
-                            <td>Calvin D. Sun, MD</td>
-                            <td>1</td>
-                        </tr>
-                        <tr class="grid-item" id="w48">
-                            <td><b><i>Shmoozin’ & Boozin’: Social Networking Etiquette 101</i></b></td>
-                            <td>Calvin D. Sun, MD</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w49">
-                            <td><b><i>“Are You A Doctor Yet?” – AAPIs & Med School</i></b></td>
-                            <td>Calvin D. Sun, MD</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w50">
-                            <td><b><i>Asian Googler Network: APIA's in Tech + Career Panel</i></b></td>
-                            <td>Richard Pyo, Kapil Melkote, Rachel Sylora, Bessie Henk</td>
-                            <td>1, 2, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w51">
-                            <td><b><i>Keeping it Real: Being Genuine in Networking Situation</i></b></td>
-                            <td>Mayta Lor & Nancy Yap</td>
-                            <td>1, 2</td>
-                        </tr>
-                        <tr class="grid-item" id="w52">
-                            <td>Asian Americans and Mental Health</td>
-                            <td>Critical Ethnic & Asian/Pacific Islander American Studies Working Group</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w53">
-                            <td><b><i>Leadership Animals</i></b></td>
-                            <td>OCA (Jonathan Ho)</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w54">
-                            <td><b><i>Unpacking the Intersectionality of our Identities</i></b></td>
-                            <td>OCA (Jonathan Ho)</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w55">
-                            <td><b><i>No History No Self, Know History Know Self</i></b></td>
-                            <td>OCA (Jonathan Ho)</td>
-                            <td>1</td>
-                        </tr>
-                        <tr class="grid-item" id="w56">
-                            <td>Surviving and Thriving in Grad School</td>
-                            <td>Marie P. Ting</td>
-                            <td>3</td>
-                        </tr>
-                        <tr class="grid-item" id="w57">
-                            <td><b><i>If You're Not With Us, You're Against Us: Perceived Power Binaries between Marginalized Identities</i></b></td>
-                            <td>Yoni Ki Baat</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w58">
-                            <td><b><i>[SAPAC] Peer Education</i></b></td>
-                            <td>[UM SAPAC] Peer Education</td>
-                            <td>1, 3</td>
-                        </tr>
-                        <tr class="grid-item" id="w59">
-                            <td><b><i>[SAPAC] Bystander Intervention</i></b></td>
-                            <td>[UM SAPAC] BICE</td>
-                            <td>1</td>
-                        </tr>
-                        <tr class="grid-item" id="w60">
-                            <td><b><i>Resume Whitening: What Will Get You Hired?</i></b></td>
-                            <td>Norman Chen</td>
-                            <td>2</td>
-                        </tr>
-                        <tr class="grid-item" id="w61">
-                            <td><b><i>Fear of Failure</i></b></td>
-                            <td>Norman Chen</td>
-                            <td>3</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <p align="left"
-                    <br>*We are no longer accepting new workshop applications<br>
-                    **Bolded workshops are ones that were recently added
-                </p>
+
+                                        <div class="grid-item container col-md-12 artcult s2" id="wkey">
+                        <div class="col-md-7">Spoken Word</div>
+                        <div class="col-md-3">Franny Choi</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 artcult s1 s3" id="w1">
+                        <div class="col-md-7">Asian/Pacific Islander American (APIA) Media, Writing, and Identity</div>
+                        <div class="col-md-3">Frances Kai-Hwa Wang</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s1 s3" id="w2">
+                        <div class="col-md-7">10 Things Dumb Well Intended People Say</div>
+                        <div class="col-md-3">Jack Nguyen</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s2" id="w3">
+                        <div class="col-md-7">Grassroots to Social Media</div>
+                        <div class="col-md-3">Jack Nguyen</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s1 s2 s3" id="w4">
+                        <div class="col-md-7">Mass Action and Results in Aftermath of APIA Grievances</div>
+                        <div class="col-md-3">Roland Hwang</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s2" id="w5">
+                        <div class="col-md-7">Students4Justice: Coalition Building and Organizing around Our Issues</div>
+                        <div class="col-md-3">Vikrant Garg, et al.</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s3" id="w6">
+                        <div class="col-md-7">Racial Triangulation, Homogenization, And Racialization – Immigration histories and Asian-American Identity</div>
+                        <div class="col-md-3">Vikrant Garg, et al.</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 health s1 s2 s3" id="w7">
+                        <div class="col-md-7">APIA Self esteem and Body Image</div>
+                        <div class="col-md-3">Tina Yu, Jerin Lee</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s2 s3" id="w8">
+                        <div class="col-md-7">What if Asians/trans said the Stuff that Whites/Heteros Say? Looking forward towards Solidarity</div>
+                        <div class="col-md-3">Naoko Wake</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s1 s2" id="w9">
+                        <div class="col-md-7">How can Activism March with Scholarship? Turning Academic Learning into a Resource for Social Justice and Change on Campus</div>
+                        <div class="col-md-3">Victor Jew</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 health s1 s3" id="w10">
+                        <div class="col-md-7">[CAPS] APIA Mental Health</div>
+                        <div class="col-md-3">[CAPS] Min Ji Yang, Reena Sheth</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s2 s3" id="w11">
+                        <div class="col-md-7">Korean Adoptees and the APIA Community</div>
+                        <div class="col-md-3">Erica Gehringer, Katie Corbit</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1 s2" id="w12">
+                        <div class="col-md-7">Palestine and A/PIA</div>
+                        <div class="col-md-3">Meryem Kamil</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s1 s2" id="w13">
+                        <div class="col-md-7">Grace Lee Boggs, Martin Luther King, and United We Stand--Understanding History, Dialectics and Social Change</div>
+                        <div class="col-md-3">Joseph A. Galura</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s1 s2 s3" id="w14">
+                        <div class="col-md-7">Filipinx-American Historical Legacies: Decolonize, Name, Reclaim</div>
+                        <div class="col-md-3">Stephanie Manke, Annabelle Estera</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1 s2" id="w15">
+                        <div class="col-md-7">South Asian Sexuality and Gender Reclamation</div>
+                        <div class="col-md-3">Swati Sudarsan</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1 s2" id="w16">
+                        <div class="col-md-7"><b><i>Your Voice- A Powerful Tool in Addressing Disparities</i></b></div>
+                        <div class="col-md-3">Anum Chaudhry, Amaal Haimout</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s2 s3" id="w17">
+                        <div class="col-md-7">“Where are you really from?”: A Look into Belonging in America</div>
+                        <div class="col-md-3">Sean Liu</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1" id="w18">
+                        <div class="col-md-7">Our Stories, Our Voices: Growing Up Asian American</div>
+                        <div class="col-md-3">Harsha Nahata, Cat Knoerr</div>
+                        <div class="col-md-1">1</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s1 s2" id="w19">
+                        <div class="col-md-7">Community Centered Sdivategies to Counteract Gentrification</div>
+                        <div class="col-md-3">[The DAY Project] Soh Suzuki</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s2 s3" id="w20">
+                        <div class="col-md-7">Check all that apply: Asian, and Also _____.</div>
+                        <div class="col-md-3">Abby Chien</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1 s2 s3" id="w21">
+                        <div class="col-md-7">Pursuing Justice Outside of the Workplace</div>
+                        <div class="col-md-3">Rosalie Shyu</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1 s3" id="w22">
+                        <div class="col-md-7">The Global APIA Leader in the 21st Century: Breaking the Barriers of Inequality in STEM Areas</div>
+                        <div class="col-md-3">Aurelio Curbelo</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 artcult s2 s3" id="w23">
+                        <div class="col-md-7">Room to Improv(e): Interacting with your Campus Community</div>
+                        <div class="col-md-3">Xavier Hernandez</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1" id="w24">
+                        <div class="col-md-7">Coming Full Circle: The Power of Extra-Curricular Spaces</div>
+                        <div class="col-md-3">Xavier Hernandez</div>
+                        <div class="col-md-1">1</div>
+                    </div>
+                    <div class="grid-item container col-md-12 artcult s1 s2 s3" id="w25">
+                        <div class="col-md-7">Do You See Me? The Need for Representation in Literature Across Content Areas</div>
+                        <div class="col-md-3">Mai Lo Lee</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s1" id="w26">
+                        <div class="col-md-7">Being Inclusive or Exclusive: A Talk on AAPI Communities</div>
+                        <div class="col-md-3">Hli Vang</div>
+                        <div class="col-md-1">1</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1 s2" id="w27">
+                        <div class="col-md-7">Supporting Asian-Interest Student Organizations - What Works?</div>
+                        <div class="col-md-3">Elvin Chan</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s1 s2" id="w28">
+                        <div class="col-md-7">Japanese American Incarceration</div>
+                        <div class="col-md-3">Christine Munteanu</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s2 s3" id="w29">
+                        <div class="col-md-7">Supporting All of Us: Creating Space for Intersecting Identities within APIA Organizations</div>
+                        <div class="col-md-3">Aleidra Allen</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 artcult s1 s3" id="w30">
+                        <div class="col-md-7">APIA's in Hip Hop Culture</div>
+                        <div class="col-md-3">Ryan Jimenez and Stone Stewart</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s1 s2 s3" id="w31">
+                        <div class="col-md-7">Accept and Respect: The Pathway to Unification</div>
+                        <div class="col-md-3">Nicole Brindejonc</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 artcult s2" id="w32">
+                        <div class="col-md-7">Asian American Student-Organized Cultural Shows</div>
+                        <div class="col-md-3">Amy Stillman</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 artcult s3" id="w33">
+                        <div class="col-md-7">Hula - Fact and Fiction</div>
+                        <div class="col-md-3">Amy Stillman</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s3" id="w34">
+                        <div class="col-md-7">Ally and Coalition Building as A/PIA Leaders on Campus</div>
+                        <div class="col-md-3">Linh Nguyen</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history s1 s3" id="w35">
+                        <div class="col-md-7">AAPI Racialization in the 21st Century: From Ferguson to Trump</div>
+                        <div class="col-md-3">Purvi Patel</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1 s3" id="w36">
+                        <div class="col-md-7">Intersections of 1.5 Generation Immigrants</div>
+                        <div class="col-md-3">Kenny Importante</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1 s2 s3" id="w37">
+                        <div class="col-md-7">LGBTQ+ APIA Caucus</div>
+                        <div class="col-md-3">Andy Bui, Toni Wang, Priyanka Shanmugasundaram</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s1 s3" id="w38">
+                        <div class="col-md-7">Trending on Insta: Social Justice and Consumer Capitalism</div>
+                        <div class="col-md-3">Sarah Hong</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s3" id="w39">
+                        <div class="col-md-7">Speak Up, Speak Out: Reworking Activism Through Social Media</div>
+                        <div class="col-md-3">Uncover: A/PIA</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s2 s3" id="w40">
+                        <div class="col-md-7">Learning from South Asian American Pasts</div>
+                        <div class="col-md-3">Manan Desai</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1 s3" id="w44">
+                        <div class="col-md-7">You Can't Be Gay, You're Filipino! Intersectional LGBTQ+ Identity</div>
+                        <div class="col-md-3">Gabriel Javier</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s2" id="w45">
+                        <div class="col-md-7">Finding (and Using) YOur Voice: Skill-building for Asian Americans</div>
+                        <div class="col-md-3">Soojin Kwon</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s2 s3" id="w46">
+                        <div class="col-md-7"><b><i>The Intersections of Food Justice</i></b></div>
+                        <div class="col-md-3">Shane Bernardo</div>
+                        <div class="col-md-1">2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s1" id="w47">
+                        <div class="col-md-7"><b><i>Asian Americans & Sex</i></b></div>
+                        <div class="col-md-3">Calvin D. Sun, MD</div>
+                        <div class="col-md-1">1</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s2" id="w48">
+                        <div class="col-md-7"><b><i>Shmoozin’ & Boozin’: Social Networking Etiquette 101</i></b></div>
+                        <div class="col-md-3">Calvin D. Sun, MD</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s3" id="w49">
+                        <div class="col-md-7"><b><i>“Are You A Doctor Yet?” – AAPIs & Med School</i></b></div>
+                        <div class="col-md-3">Calvin D. Sun, MD</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1 s2 s3" id="w50">
+                        <div class="col-md-7"><b><i>Asian Googler Network: APIA's in Tech + Career Panel</i></b></div>
+                        <div class="col-md-3">Richard Pyo, Kapil Melkote, Rachel Sylora, Bessie Henk</div>
+                        <div class="col-md-1">1, 2, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s1 s2" id="w51">
+                        <div class="col-md-7"><b><i>Keeping it Real: Being Genuine in Networking Situation</i></b></div>
+                        <div class="col-md-3">Mayta Lor & Nancy Yap</div>
+                        <div class="col-md-1">1, 2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s2" id="w52">
+                        <div class="col-md-7">Asian Americans and Mental Health</div>
+                        <div class="col-md-3">Critical Ethnic & Asian/Pacific Islander American Studies Working Group</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s3" id="w53">
+                        <div class="col-md-7"><b><i>Leadership Animals</i></b></div>
+                        <div class="col-md-3">OCA (Jonathan Ho)</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s2" id="w54">
+                        <div class="col-md-7"><b><i>Unpacking the Intersectionality of our Identities</i></b></div>
+                        <div class="col-md-3">OCA (Jonathan Ho)</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 history identity s1" id="w55">
+                        <div class="col-md-7"><b><i>No History No Self, Know History Know Self</i></b></div>
+                        <div class="col-md-3">OCA (Jonathan Ho)</div>
+                        <div class="col-md-1">1</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s3" id="w56">
+                        <div class="col-md-7">Surviving and Thriving in Grad School</div>
+                        <div class="col-md-3">Marie P. Ting</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 identity s1 s3" id="w57">
+                        <div class="col-md-7"><b><i>If You're Not With Us, You're Against Us: Perceived Power Binaries between Marginalized Identities</i></b></div>
+                        <div class="col-md-3">Yoni Ki Baat</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 awareness s1 s3" id="w58">
+                        <div class="col-md-7"><b><i>[SAPAC] Peer Education</i></b></div>
+                        <div class="col-md-3">[UM SAPAC] Peer Education</div>
+                        <div class="col-md-1">1, 3</div>
+                    </div>
+                    <div class="grid-item container col-md-12 activism s1" id="w59">
+                        <div class="col-md-7"><b><i>[SAPAC] Bystander Intervention</i></b></div>
+                        <div class="col-md-3">[UM SAPAC] BICE</div>
+                        <div class="col-md-1">1</div>
+                    </div>
+                    <div class="grid-item container col-md-12 leadprof s2" id="w60">
+                        <div class="col-md-7"><b><i>Resume Whitening: What Will Get You Hired?</i></b></div>
+                        <div class="col-md-3">Norman Chen</div>
+                        <div class="col-md-1">2</div>
+                    </div>
+                    <div class="grid-item container col-md-12 health identity s3" id="w61">
+                        <div class="col-md-7"><b><i>Fear of Failure</i></b></div>
+                        <div class="col-md-3">Norman Chen</div>
+                        <div class="col-md-1">3</div>
+                    </div>
+                </div>
+                <div class="row col-md-8">
+                    <p align="left"
+                        <br>*We are no longer accepting new workshop applications<br>
+                        **Bolded workshops are ones that were recently added
+                    </p>
+                </div>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 hidden-xs" id="workshop-p">
                 <div class="white-bg workshop-info" id="workshop-id">
