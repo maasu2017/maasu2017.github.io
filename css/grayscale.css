@@ -1084,13 +1084,6 @@ a:hover, a:focus {
     background-color: #42dca3;
 }
 
-.is-checked {
-     border: 1px solid #42dca3;
-    outline: 0;
-    color: #000;
-    background-color: #42dca3;
-}
-
 ul.banner-social-buttons {
     margin-top: 0;
 }
@@ -1217,6 +1210,28 @@ img::-moz-selection {
 
 .btn-filter:hover,
 .btn-filter:focus {
+    color: white;
+    background-color: #0091D6;
+}
+
+.btn-filter2 {
+    color: #0091D6;
+    background-color: white;
+    border-color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-filter2:hover,
+.btn-filter2:focus {
+    color: white;
+    background-color: #0091D6;
+}
+
+.is-checked {
     color: white;
     background-color: #0091D6;
 }
