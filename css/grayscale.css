@@ -1198,11 +1198,12 @@ img::-moz-selection {
 }
 
 .btn-filter {
-    color: #0091D6;
-    background-color: white;
+    color: white;
+    background-color: #0091D6;
     border-color: white;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 400;
+    border-width: 1px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
@@ -1210,11 +1211,11 @@ img::-moz-selection {
 
 .btn-filter:hover,
 .btn-filter:focus {
-    color: white;
-    background-color: #0091D6;
+    color: #0091D6;
+    background-color: white;
 }
 
 .is-checked {
-    color: white;
-    background-color: #0091D6;
+    color: #0091D6;
+    background-color: white;
 }

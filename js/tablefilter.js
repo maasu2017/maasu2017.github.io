@@ -10,7 +10,7 @@ var $grid = $('.grid').isotope({
 // store filter for each group
 var filters = {};
 
-$('.filters').on( 'click', '.button', function() {
+$('.filters').on( 'click', '.filter', function() {
   var $this = $(this);
   // get group key
   var $buttonGroup = $this.parents('.button-group');
@@ -26,7 +26,7 @@ $('.filters').on( 'click', '.button', function() {
 // change is-checked class on buttons
 $('.button-group').each( function( i, buttonGroup ) {
   var $buttonGroup = $( buttonGroup );
-  $buttonGroup.on( 'click', 'button', function() {
+  $buttonGroup.on( 'click', '.filter', function() {
     $buttonGroup.find('.is-checked').removeClass('is-checked');
     $( this ).addClass('is-checked');
   });
