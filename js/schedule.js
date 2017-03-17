@@ -64,6 +64,10 @@ $(document).ready(function() {
         blurb = e11;
         break;
 
+      case "e12":
+        blurb = e12;
+        break;
+
       // For if they click any other row
       default:
         blurb = "Click on an event to show more info!";
@@ -90,7 +94,7 @@ e2 = "The event details for GenAPA have not yet been finalized; but once they ar
 e3 = "The event details for Saturday's registration have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
 
 // SATURDAY: Small Pod I
-e4 = "The event details for the morning ceremony/small group I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e4 = "The event details for the opening ceremony have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
 
 // SATURDAY: Workshop Session I
 e5 = "The event details for workshop session I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
@@ -112,3 +116,6 @@ e10 = "Feel free to spend this time however you want. Buses arrive at 6pm and wi
 
 // SATURDAY: Break
 e11 = "The event details for banquet have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+
+// SATURDAY: Small Group I
+e12 = "The event details for small group I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
