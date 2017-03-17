@@ -1203,3 +1203,20 @@ img::-moz-selection {
     color: white;
     background-color: #0091D6;
 }
+
+.btn-filter {
+    color: #0091D6;
+    background-color: white;
+    border-color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    color: white;
+    background-color: #0091D6;
+}
