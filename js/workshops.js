@@ -367,7 +367,7 @@ w54 = "How do we categorize ourselves versus how society categorizes us? Sometim
 
 w55 = "Our rich, diverse history is rarely reflected in the history books we grew up with. Why is that? Understanding our community’s history is an important piece in shaping the future of our movements. In order for us to become better advocates for our communities, we must unpack the historical context that is untold, and unwritten. What is your role in shaping history? Come join the discussion!";
 
-w56 = "This workshop will be facilitated by Marie Ting, the Associate Director of the National Institute for Diversity. Are you going to graduate school or thinking about it?  This session will provide some very practical tips on surviving…and maybe even thriving in graduate school!";
+w56 = "This workshop will be facilitated by Marie Ting, the Associate Director of the National Institute for Diversity. Are you going to graduate school or thinking about it?  This session will provide some very practical tips on surviving… and maybe even thriving in graduate school!";
 
 w57 = "Criticisms of identity politics suggest that focus on our own identities prevents us from supporting others. The perceived binary that produces the “Us vs. Them” mentality stems from a long history of an unspoken competition that could only be won through assimilation. In this workshop, we’ll explore the history behind intra-community bias and how we can recognize and move past these prejudices.";
 
