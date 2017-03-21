@@ -1223,3 +1223,10 @@ img::-moz-selection {
     color: #0091D6;
     background-color: white;
 }
+
+.announcements {
+    padding-top: 25px;
+    color: black;
+    padding-left: 50px;
+    padding-right: 50px;
+}
