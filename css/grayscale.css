@@ -1163,6 +1163,10 @@ img::-moz-selection {
     text-align: right;
 }
 
+.center {
+    text-align: center;
+}
+
 .gray-row {
     background-color: rgba(222,222,222,.8);
 }
