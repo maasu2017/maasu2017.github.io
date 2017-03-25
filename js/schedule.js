@@ -85,16 +85,15 @@ $(document).ready(function() {
 });
 
 // FRIDAY: Registration
-e1 = "The event details for Friday's registration have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e1 = "East Hall Address: 530 Church St, Ann Arbor, MI 48109";
 
 // FRIDAY: GenAPA
-e2 = "The event details for GenAPA have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e2 = "Theatre Address: 911 N University Ave, Ann Arbor, MI 48109 <br/> The theatre is located inside of the Michigan League.";
 
 // SATURDAY: Morning registration
-e3 = "The event details for Saturday's registration have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e3 = "CHEM Address: 930 N University Ave, Ann Arbor, MI 48109<br/>MLB Address: 812 E Washington St, Ann Arbor, MI 48109";
 
-// SATURDAY: Small Pod I
-e4 = "The event details for the opening ceremony have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e4 = "CHEM Address: 930 N University Ave, Ann Arbor, MI 48109<br/>MLB Address: 812 E Washington St, Ann Arbor, MI 48109";
 
 // SATURDAY: Workshop Session I
 e5 = "The event details for workshop session I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
