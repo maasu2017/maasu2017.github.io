@@ -68,9 +68,21 @@ $(document).ready(function() {
         blurb = e12;
         break;
 
+      case "e13":
+        blurb = e13;
+        break;
+
+      case "e14":
+        blurb = e14;
+        break;
+
+      case "e15":
+        blurb = e15;
+        break;
+
       // For if they click any other row
       default:
-        blurb = "Click on an event to show more info!";
+        blurb = "Click on an event to show more info! Addresses for locations will appear here.";
     }
 
     // there's probably better logic to this i guess
@@ -84,37 +96,32 @@ $(document).ready(function() {
     });
 });
 
-// FRIDAY: Registration
 e1 = "East Hall Address: 530 Church St, Ann Arbor, MI 48109";
 
-// FRIDAY: GenAPA
 e2 = "Theatre Address: 911 N University Ave, Ann Arbor, MI 48109 <br/> The theatre is located inside of the Michigan League.";
 
-// SATURDAY: Morning registration
 e3 = "CHEM Address: 930 N University Ave, Ann Arbor, MI 48109<br/>MLB Address: 812 E Washington St, Ann Arbor, MI 48109";
 
 e4 = "CHEM Address: 930 N University Ave, Ann Arbor, MI 48109<br/>MLB Address: 812 E Washington St, Ann Arbor, MI 48109";
 
-// SATURDAY: Workshop Session I
-e5 = "The event details for workshop session I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e5 = "Please refer to the workshop table for locations.";
 
-// SATURDAY: Small Pod II
-e6 = "The event details for lunch/small group II have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e6 = "Lunch will be taken with your small group. Please ask your small group leader on where to meet.";
 
-// SATURDAY: Lunch
-e7 = "The event details for workshop session II on Saturday have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e7 = "Please refer to the workshop table for locations.";
 
-// SATURDAY: Workshop session II (M-rep Meetings, Bid proposal)
-e8 = "The event details for workshop session III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e8 = "Please refer to the workshop table for locations.";
 
-// SATURDAY: Workshop session III
-e9 = "The event details for small group III have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e9 = "Please ask your small group leader on where to meet.";
 
-// SATURDAY: Small pod III
 e10 = "Feel free to spend this time however you want. Buses arrive at 6pm and will leave by 6:30pm.";
 
-// SATURDAY: Break
-e11 = "The event details for banquet have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e11 = "The Diamond Center Address: 46100 Grand River Ave, Novi, MI 48374";
 
-// SATURDAY: Small Group I
-e12 = "The event details for small group I have not yet been finalized; but once they are, we'll include them here. Stay tuned!";
+e12 = "Please ask your small group leader on where to meet.";
+
+e13 = "East Hall Address: 530 Church St, Ann Arbor, MI 48109";
+
+e14 = "Buses will be leaving at 6:30pm sharp. Buses will be picking up in front of Angell Hall on S. State St. <br/>Adddress: 435 S State St, Ann Arbor, MI 48109";
+
+e15 = "For M-Reps only.";
