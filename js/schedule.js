@@ -100,9 +100,9 @@ e1 = "East Hall Address: 530 Church St, Ann Arbor, MI 48109";
 
 e2 = "Theatre Address: 911 N University Ave, Ann Arbor, MI 48109 <br/> The theatre is located inside of the Michigan League.";
 
-e3 = "CHEM Address: 930 N University Ave, Ann Arbor, MI 48109<br/>MLB Address: 812 E Washington St, Ann Arbor, MI 48109";
+e3 = "Rackham Address: 915 E Washington St, Ann Arbor, MI 48109";
 
-e4 = "CHEM Address: 930 N University Ave, Ann Arbor, MI 48109<br/>MLB Address: 812 E Washington St, Ann Arbor, MI 48109";
+e4 = "Rackham Address: 915 E Washington St, Ann Arbor, MI 48109";
 
 e5 = "Please refer to the workshop table for locations.";
 
