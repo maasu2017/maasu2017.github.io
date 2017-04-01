@@ -2,7 +2,6 @@ $(document).ready(function() {
   $(".grid-item").click(function() {
     // Creates jQuery variable 'event' that contains a string of whatever value
     // is in the id attribute of the selected row
-
     var ws_id = $(this).attr('id');
     var blurb = "";
 
