@@ -40,3 +40,15 @@ function concatValues( obj ) {
   }
   return value;
 }
+
+// for mobile version
+$('.add_wkshp').on('click', function(e) {
+  // console.log("hello");
+  var workshop = $(this).parents('.grid-item').clone();
+  workshop.removeClass('grid-item');
+  var lol = workshop[0].children[1].children[0];
+  console.log(lol);
+  // workshop[0].children[1].children[0].removeClass('add_wkshp').addClass('rm_wkshp').children[0].removeClass('fa-plus-circle').addClass('fa-minus-circle')
+  console.log(workshop);
+  $('#added-workshops').append(workshop);
+});

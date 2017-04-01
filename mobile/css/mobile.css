@@ -35,7 +35,7 @@ h6 {
 
 h3, h4 {
     margin-top: 35px;
-    word-wrap: break-word !important;
+    /*word-wrap: break-word !important;*/
 }
 
 p {
