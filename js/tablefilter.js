@@ -45,10 +45,17 @@ function concatValues( obj ) {
 $('.add_wkshp').on('click', function(e) {
   // console.log("hello");
   var workshop = $(this).parents('.grid-item').clone();
+  var button = $(workshop).find("i");
+  button.removeClass('add_wkshp');
+  button.removeClass('fa-plus-circle');
+  button.addClass('fa-minus-circle'); 
+  button.addClass('rm_wkshp');
+  workshop.removeClass('grid');
+  console.log(button);
   workshop.removeClass('grid-item');
-  var lol = workshop[0].children[1].children[0];
-  console.log(lol);
-  // workshop[0].children[1].children[0].removeClass('add_wkshp').addClass('rm_wkshp').children[0].removeClass('fa-plus-circle').addClass('fa-minus-circle')
-  console.log(workshop);
+  workshop.css("position", "");
+  workshop.css("top", "");
+  workshop.css("left", "");
+  var lol = workshop[0].children[1].children;
   $('#added-workshops').append(workshop);
 });
