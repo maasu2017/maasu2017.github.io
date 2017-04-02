@@ -283,7 +283,7 @@ a:hover, a:focus {
     padding: 0px;
 }
 
-.wk {
+.wk, #no-workshops {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     border-style: solid none none none;
