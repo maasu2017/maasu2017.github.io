@@ -44,18 +44,21 @@ function concatValues( obj ) {
 // for mobile version
 $('.add_wkshp').on('click', function(e) {
   // console.log("hello");
-  var workshop = $(this).parents('.grid-item').clone();
+  var workshop = $(this).parents('.wk').clone();
   var button = $(workshop).find("i");
   button.removeClass('add_wkshp');
   button.removeClass('fa-plus-circle');
   button.addClass('fa-minus-circle'); 
   button.addClass('rm_wkshp');
   workshop.removeClass('grid');
-  console.log(button);
   workshop.removeClass('grid-item');
   workshop.css("position", "");
   workshop.css("top", "");
   workshop.css("left", "");
   var lol = workshop[0].children[1].children;
   $('#added-workshops').append(workshop);
+});
+
+$(document).on('click', '.rm_wkshp', function() {
+  $(this).parents('.wk').remove();
 });

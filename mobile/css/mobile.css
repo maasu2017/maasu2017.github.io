@@ -283,7 +283,7 @@ a:hover, a:focus {
     padding: 0px;
 }
 
-.grid-item {
+.wk {
     padding-top: 10px !important;
     padding-bottom: 10px !important;
     border-style: solid none none none;
@@ -291,7 +291,7 @@ a:hover, a:focus {
     width: 100vw;
 }
 
-.grid-item:hover {
+.wk:hover {
     background-color: white !important;
     color: #0091D6;
 }
