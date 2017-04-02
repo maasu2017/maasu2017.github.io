@@ -105,6 +105,16 @@ function loadWorkshops() {
   }
 }
 
+function removePlus(workshop) {
+  var button = this.parents('.wk').find('i');
+  button.removeClass('fa-plus-circle');
+}
+
+function addPlus(workshop) {
+  var button = this.parents('.wk').find('i');
+  button.addClass('fa-plus-circle');
+}
+
 // for mobile version
 $('.add_wkshp').on('click', function(e) {
   var list = new cookieList("workshops");
@@ -114,6 +124,7 @@ $('.add_wkshp').on('click', function(e) {
   if (inWorkshops(workshops, id)) {
     return;
   }
+  $(this).removeClass('fa-minus-circle');
   var button = $(workshop).find("i");
   workshop.removeClass('grid');
   workshop.removeClass('grid-item');
@@ -130,9 +141,11 @@ $('.add_wkshp').on('click', function(e) {
 
 $(document).on('click', '.rm_wkshp', function() {
   var workshop = $(this).parents('.wk')
+  var id = workshop.attr('id');
   var list = new cookieList("workshops");
-  list.remove(workshop.attr('id'));
+  list.remove(id);
   workshop.remove();
+  $('#'+id).addClass('fa-plus-circle');
 });
 
 $(document).ready(function() {
