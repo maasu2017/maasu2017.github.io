@@ -124,3 +124,7 @@ $(document).on('click', '.rm_wkshp', function() {
   list.remove(workshop.attr('id'));
   workshop.remove();
 });
+
+$(document).ready(function() {
+  loadWorkshops();
+})
