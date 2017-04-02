@@ -83,6 +83,7 @@ function concatValues( obj ) {
 function loadWorkshops() {
   var list = new cookieList("workshops");
   var workshops = list.items();
+  console.log(workshops);
   var length = workshops.length;
   for (var i = 0; i < length; i++) {
     var workshopId = workshops[i];
@@ -127,4 +128,4 @@ $(document).on('click', '.rm_wkshp', function() {
 
 $(document).ready(function() {
   loadWorkshops();
-})
+});
