@@ -101,6 +101,7 @@ function loadWorkshops() {
     button.removeClass('fa-plus-circle');
     button.addClass('fa-minus-circle'); 
     button.addClass('rm_wkshp');
+    $('#added-workshops').append(workshop);
   }
 }
 
