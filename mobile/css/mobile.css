@@ -305,6 +305,20 @@ a:hover, a:focus {
     padding: 0px;
 }
 
+#selected-wkshps {
+    padding-bottom: 25px;
+}
+
+#selected-wkshps p {
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.wkshps-header {
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
 @media(min-width: 993px){
     div#workshop-p.wfix {
         position: fixed;
