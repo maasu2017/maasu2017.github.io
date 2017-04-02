@@ -102,11 +102,13 @@ function loadWorkshops() {
   var list = new cookieList("workshops");
   var workshops = list.items();
   var length = workshops.length;
+  var wsList = $('#workshop-list');
   for (var i = 0; i < length; i++) {
     var workshopId = '#'+workshops[i];
     var workshop = $(workshopId).clone();
     var button = $(workshop).find("i");
-    $('#workshop-list').find(workshops[i]).find('i').removeClass('fa-plus-circle');
+    wsList.find(workshops[i]).find('i').removeClass('fa-plus-circle');
+    console.log(wsList.find(workshops[i]));
     workshop.removeClass('grid');
     workshop.removeClass('grid-item');
     workshop.css("position", "");
