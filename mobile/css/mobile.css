@@ -309,9 +309,9 @@ a:hover, a:focus {
     padding-bottom: 25px;
 }
 
-#selected-wkshps p {
+#workshop p {
     margin-top: 25px;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .wkshps-header {
@@ -1248,6 +1248,18 @@ img::-moz-selection {
 .btn-filter:focus {
     color: #0091D6;
     background-color: white;
+}
+
+.category-btn {
+    color: white;
+    background-color: #0091D6;
+    border-color: white;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    border-width: 1px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 
 .is-checked {
