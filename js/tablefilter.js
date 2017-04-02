@@ -80,17 +80,17 @@ function concatValues( obj ) {
   return value;
 }
 
+function inWorkshops(workshops, id) {
+  return $.inArray(id, workshops) != -1;
+}
+
 function loadWorkshops() {
   var list = new cookieList("workshops");
   var workshops = list.items();
-  console.log(workshops);
   var length = workshops.length;
-  console.log(length);
   for (var i = 0; i < length; i++) {
     var workshopId = '#'+workshops[i];
-    console.log(workshopId);
     var workshop = $(workshopId).clone();
-    console.log(workshop);
     var button = $(workshop).find("i");
     workshop.removeClass('grid');
     workshop.removeClass('grid-item');
@@ -108,7 +108,12 @@ function loadWorkshops() {
 // for mobile version
 $('.add_wkshp').on('click', function(e) {
   var list = new cookieList("workshops");
+  var workshops = list.items();
   var workshop = $(this).parents('.wk').clone();
+  var id = workshop.attr('id');
+  if (inWorkshops(workshops, id)) {
+    return;
+  }
   var button = $(workshop).find("i");
   workshop.removeClass('grid');
   workshop.removeClass('grid-item');
