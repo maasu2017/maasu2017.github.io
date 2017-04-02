@@ -158,7 +158,7 @@ $('.add_wkshp').on('click', function(e) {
 });
 
 // remove workshop
-$(document).on('touchstart click', '.rm_wkshp', function() {
+$(document).on('touchend click', '.rm_wkshp', function() {
   var workshop = $(this).parents('.wk')
   var id = workshop.attr('id');
   var list = new cookieList("workshops");
