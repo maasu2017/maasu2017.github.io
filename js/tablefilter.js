@@ -86,7 +86,6 @@ function inWorkshops(workshops, id) {
 
 function hasWorkshops() {
   var list = new cookieList("workshops");
-  console.log(list.items().length);
   return list.items().length !== 0
 }
 
