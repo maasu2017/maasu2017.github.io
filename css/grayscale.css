@@ -278,14 +278,14 @@ a:hover, a:focus {
     padding: 0px;
 }
 
-.wk {
+.grid-item {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
     border-style: solid none none none;
     border-width: 2px;
 }
 
-.wk:hover {
+.grid-item:hover {
     background-color: white;
     color: #0091D6;
 }
