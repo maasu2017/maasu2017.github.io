@@ -86,8 +86,9 @@ function loadWorkshops() {
   console.log(workshops);
   var length = workshops.length;
   for (var i = 0; i < length; i++) {
-    var workshopId = workshops[i];
-    var workshop = $("#"+workshopId).clone();
+    var workshopId = '#'+workshops[i];
+    console.log(workshopId);
+    var workshop = $(workshopId).clone();
     var button = $(workshop).find("i");
     workshop.removeClass('grid');
     workshop.removeClass('grid-item');
