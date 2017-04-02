@@ -157,8 +157,10 @@ $('.add_wkshp').on('click', function(e) {
   addRemoveNoWorkshops();
 });
 
+var touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
+
 // remove workshop
-$(document).on('touchend click', '.rm_wkshp', function() {
+$(document).on(touchEvent, '.rm_wkshp', function() {
   var workshop = $(this).parents('.wk')
   var id = workshop.attr('id');
   var list = new cookieList("workshops");
