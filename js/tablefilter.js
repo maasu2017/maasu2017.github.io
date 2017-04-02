@@ -124,8 +124,8 @@ $('.add_wkshp').on('click', function(e) {
   if (inWorkshops(workshops, id)) {
     return;
   }
-  $(this).removeClass('fa-minus-circle');
-  var button = $(workshop).find("i");
+  $(this).removeClass('fa-plus-circle');
+  var button = $(workshop).find('i');
   workshop.removeClass('grid');
   workshop.removeClass('grid-item');
   workshop.css("position", "");
@@ -145,7 +145,7 @@ $(document).on('click', '.rm_wkshp', function() {
   var list = new cookieList("workshops");
   list.remove(id);
   workshop.remove();
-  $('#'+id).addClass('fa-plus-circle');
+  $('#'+id).find('i').addClass('fa-plus-circle');
 });
 
 $(document).ready(function() {
