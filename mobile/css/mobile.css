@@ -291,7 +291,7 @@ a:hover, a:focus {
     width: 100vw;
 }
 
-.wk:hover {
+.wk:hover, .wk:focus {
     background-color: white !important;
     color: #0091D6;
 }
