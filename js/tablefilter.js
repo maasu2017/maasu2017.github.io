@@ -102,7 +102,6 @@ function loadWorkshops() {
   var list = new cookieList("workshops");
   var workshops = list.items();
   var length = workshops.length;
-  var wsList = $('#workshop-list');
   for (var i = 0; i < length; i++) {
     var workshopId = '#'+workshops[i];
     var workshop = $(workshopId).clone();
