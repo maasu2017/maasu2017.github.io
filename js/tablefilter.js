@@ -5,7 +5,6 @@ var cookieList = function(cookieName) {
 
   //Load the items or a new array if null.
   var items = cookie ? cookie.split(/,/) : new Array();
-  console.log(items);
 
   //Return a object that we can use to access the array.
   //while hiding direct access to the declared items array
@@ -21,6 +20,7 @@ var cookieList = function(cookieName) {
     },
     "remove": function (val) { 
         //EDIT: Thx to Assef and luke for remove.
+
         indx = items.indexOf(val); 
         if(indx!=-1) items.splice(indx, 1); 
         Cookies.set(cookieName, items.join(','));        
@@ -81,7 +81,22 @@ function concatValues( obj ) {
 }
 
 function inWorkshops(workshops, id) {
-  return $.inArray(id, workshops) != -1;
+  return $.inArray(id, workshops) !== -1;
+}
+
+function hasWorkshops() {
+  var list = new cookieList("workshops");
+  console.log(list.items().length);
+  return list.items().length !== 0
+}
+
+function addRemoveNoWorkshops() {
+  if(!hasWorkshops()) {
+    $('#added-workshops').append('<div class="row" id="no-workshops">No workshops added. Please add your workshops.</div>');
+  }
+  else {
+    $('#no-workshops').remove();
+  }
 }
 
 function loadWorkshops() {
@@ -106,6 +121,8 @@ function loadWorkshops() {
 }
 
 // for mobile version
+
+// add workshop
 $('.add_wkshp').on('click', function(e) {
   var list = new cookieList("workshops");
   var workshops = list.items();
@@ -126,15 +143,19 @@ $('.add_wkshp').on('click', function(e) {
   button.addClass('rm_wkshp');
   $('#added-workshops').append(workshop);
   list.add(workshop.attr('id'));
+  addRemoveNoWorkshops();
 });
 
+// remove workshop
 $(document).on('click', '.rm_wkshp', function() {
   var workshop = $(this).parents('.wk')
   var list = new cookieList("workshops");
   list.remove(workshop.attr('id'));
   workshop.remove();
+  addRemoveNoWorkshops();
 });
 
 $(document).ready(function() {
+  addRemoveNoWorkshops();
   loadWorkshops();
 });
