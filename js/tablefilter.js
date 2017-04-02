@@ -80,9 +80,28 @@ function concatValues( obj ) {
   return value;
 }
 
+function loadWorkshops() {
+  var list = new cookieList("workshops");
+  var workshops = list.items();
+  var length = workshops.length;
+  for (var i = 0; i < length; i++) {
+    var workshopId = workshops[i];
+    var workshop = $("#"+workshopId).clone();
+    var button = $(workshop).find("i");
+    workshop.removeClass('grid');
+    workshop.removeClass('grid-item');
+    workshop.css("position", "");
+    workshop.css("top", "");
+    workshop.css("left", "");
+    button.removeClass('add_wkshp');
+    button.removeClass('fa-plus-circle');
+    button.addClass('fa-minus-circle'); 
+    button.addClass('rm_wkshp');
+  }
+}
+
 // for mobile version
 $('.add_wkshp').on('click', function(e) {
-  Cookies.set("workshop", "kej");
   var list = new cookieList("workshops");
   var workshop = $(this).parents('.wk').clone();
   var button = $(workshop).find("i");
@@ -97,8 +116,6 @@ $('.add_wkshp').on('click', function(e) {
   button.addClass('rm_wkshp');
   $('#added-workshops').append(workshop);
   list.add(workshop.attr('id'));
-  console.log(Cookies.get("workshops"));
-  console.log(Cookies.get("workshop"));
 });
 
 $(document).on('click', '.rm_wkshp', function() {
@@ -106,6 +123,4 @@ $(document).on('click', '.rm_wkshp', function() {
   var list = new cookieList("workshops");
   list.remove(workshop.attr('id'));
   workshop.remove();
-  console.log(list.items());
-
 });
