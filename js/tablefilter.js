@@ -106,7 +106,7 @@ function loadWorkshops() {
     var workshopId = '#'+workshops[i];
     var workshop = $(workshopId).clone();
     var button = $(workshop).find("i");
-    $(this).removeClass('fa-plus-circle');
+    $('#workshop-list').find(workshopId).find('i').removeClass('fa-plus-circle');
     workshop.removeClass('grid');
     workshop.removeClass('grid-item');
     workshop.css("position", "");
