@@ -107,7 +107,7 @@ function loadWorkshops() {
     var workshopId = '#'+workshops[i];
     var workshop = $(workshopId).clone();
     var button = $(workshop).find("i");
-    wsList.find(workshops[i]).find('i').removeClass('fa-plus-circle');
+    $('#workshop-list '+workshopId+' i').removeClass('fa-plus-circle');
     console.log(wsList);
     workshop.removeClass('grid');
     workshop.removeClass('grid-item');
@@ -120,16 +120,6 @@ function loadWorkshops() {
     button.addClass('rm_wkshp');
     $('#added-workshops').append(workshop);
   }
-}
-
-function removePlus(workshop) {
-  var button = this.parents('.wk').find('i');
-  button.removeClass('fa-plus-circle');
-}
-
-function addPlus(workshop) {
-  var button = this.parents('.wk').find('i');
-  button.addClass('fa-plus-circle');
 }
 
 // for mobile version
