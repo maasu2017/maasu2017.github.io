@@ -259,7 +259,6 @@ a:hover, a:focus {
   border-bottom: 1px #fff solid;
 }
 
-
 .time {
   font-size: 10px;
 }
@@ -747,7 +746,7 @@ a:hover, a:focus {
 
 .board p {
     color: #999;
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .board img {
@@ -758,6 +757,10 @@ a:hover, a:focus {
 .board h4 {
     font-size: 30px;
 }
+
+/*#b10 {
+    word-wrap: normal;
+}*/
 
 .sponsors {
     color: #fff;
