@@ -767,7 +767,7 @@ a:hover, a:focus {
     -o-background-size: cover;
     width: 100%;
     padding-top: 125px;
-    padding-bottom: 125px;
+    /*padding-bottom: 125px;*/
 }
 
 .img-responsive {
@@ -1272,4 +1272,8 @@ img::-moz-selection {
     color: black;
     padding-left: 50px;
     padding-right: 50px;
+}
+
+.footer {
+    padding-top: 25px;
 }
