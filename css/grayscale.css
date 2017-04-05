@@ -726,6 +726,19 @@ a:hover, a:focus {
     font-size: 30px;
 }
 
+.survey {
+    color: #0091D6;
+    background-color: #fff;
+    transition: all .3s ease-in-out;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    width: 100%;
+    padding-top: 125px;
+    padding-bottom: 125px;
+}
+
 .sponsors {
     color: #fff;
     background-color: #0091D6;
