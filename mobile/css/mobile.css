@@ -739,8 +739,10 @@ a:hover, a:focus {
     -o-background-size: cover;
     width: 100%;
     padding-top: 125px;
-    padding-bottom: 125px;
+}
 
+.board h2 {
+    margin-bottom: 0px;
 }
 
 .board p {
@@ -768,10 +770,6 @@ a:hover, a:focus {
     width: 100%;
     padding-top: 125px;
     /*padding-bottom: 125px;*/
-}
-
-.img-responsive {
-  margin: 0px auto;
 }
 
 .alumni {
@@ -884,6 +882,10 @@ a:hover, a:focus {
     transform:translateY(0px);
 }
 
+.center-block {
+    margin-top: 30px;
+}
+
 .img-center{
     width: 300px;
     height: 300px;
@@ -892,7 +894,7 @@ a:hover, a:focus {
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin:20px auto;
+    /*margin:20px auto;*/
 }
 
 .img-logo {
