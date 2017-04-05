@@ -1252,24 +1252,7 @@ img::-moz-selection {
     background-color: #0091D6;
 }
 
-.btn-filter {
-    color: white;
-    background-color: #0091D6;
-    border-color: white;
-    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 400;
-    border-width: 1px;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-}
-
-.btn-filter:hover,
-.btn-filter:focus {
-    color: #0091D6;
-    background-color: white;
-}
-
+.btn-filter,
 .category-btn {
     color: white;
     background-color: #0091D6;
@@ -1279,7 +1262,16 @@ img::-moz-selection {
     border-width: 1px;
     -webkit-transition: all .3s ease-in-out;
     -moz-transition: all .3s ease-in-out;
+    border-style: solid;
+    border-radius: 2px;
     transition: all .3s ease-in-out;
+    margin: 2px;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+    color: #0091D6;
+    background-color: white;
 }
 
 .is-checked {
