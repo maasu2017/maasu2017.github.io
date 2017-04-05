@@ -142,7 +142,8 @@ a:hover, a:focus {
     border-bottom: 5px solid rgba(255,255,255,0);
 }
 
-.navbar-custom .nav li a:hover {
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus {
     color: rgba(255,255,255,.8);
     background-color: transparent;
     border-bottom: 5px solid #0091D6;
