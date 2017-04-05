@@ -920,14 +920,18 @@ a:hover, a:focus {
 #contact {
     background:transparent;
     color:#fff;
-    padding:80px 0;
+    padding-bottom: 80px;
+    padding-top: 140px;
 }
 
 #contact .section-title {
     color:#fff;
-    margin-bottom:84px;
+    margin-bottom:20px;
 }
 
+.contact-info {
+    padding-top: 15px;
+}
 
 #contact .contact-info p,
 #contact .contact-info address{
@@ -998,7 +1002,7 @@ a:hover, a:focus {
     box-shadow:none;
     margin-bottom:30px;
     height:68px;
-    font-size:30px;
+    font-size:20px;
     line-height:48px;
     font-weight:300;
     color:#8aaad9;
@@ -1031,7 +1035,7 @@ a:hover, a:focus {
     height:auto;
     max-width:100%;
     min-width:100%;
-    font-size:30px;
+    font-size:20px;
     line-height:42px;
     padding-top:14px;
 }
