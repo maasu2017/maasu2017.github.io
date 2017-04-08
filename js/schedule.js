@@ -140,7 +140,7 @@ e12 = "Please ask your small group leader on where to meet.";
 e13 = "East Hall Address: 530 Church St, Ann Arbor, MI 48109";
 
 // Saturday Board Buses
-e14 = "Buses will be leaving at 6:30pm sharp. Buses will be picking up at S State St & N University Ave.";
+e14 = "Buses will be leaving at 6:30pm sharp. Buses will be picking up at 911 N University Ave.";
 
 // Saturday M-Rep Meetings, Bid Proposal
 e15 = "For M-Reps only.";
